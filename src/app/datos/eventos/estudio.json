@@ -1,0 +1,48 @@
+﻿{
+  "hero": {
+    "titulo": "Estudio",
+    "imagen": "public/fotos-de-eventos/estudio/cabezera.png"
+  },
+  "bloques": [
+    {
+      "tipo": "parrafo",
+      "contenido": "En nuestro estudio, transformamos momentos en recuerdos imperecederos. Ofrecemos sesiones fotogr\u00e1ficas profesionales en un entorno controlado, dise\u00f1adas para capturar la esencia de cada persona, producto o proyecto con una precisi\u00f3n y calidad inigualables. Un espacio donde la luz y la composici\u00f3n se unen para garantizar resultados excepcionales que superan las expectativas."
+    },
+    {
+      "tipo": "separador",
+      "estilo": "simple"
+    },
+    {
+      "tipo": "titulo",
+      "contenido": "LA EXPERIENCIA EN NUESTRO ESTUDIO"
+    },
+    {
+      "tipo": "subtitulo",
+      "nivel": "h3",
+      "contenido": "IDEAL PARA:"
+    },
+    {
+      "tipo": "lista",
+      "items": [
+        "<strong>Retratos Personales y Familiares:</strong> Capturamos tu personalidad y la de tus seres queridos con un enfoque art\u00edstico y emotivo. Ideal para conmemorar hitos, celebrar la vida o simplemente conservar un recuerdo que nunca envejece.",
+        "<strong>Books de Modelos y Actores:</strong> Creamos portfolios impactantes que resaltan tu versatilidad y potencial, esenciales para destacar en la industria."
+      ]
+    },
+    {
+      "tipo": "separador",
+      "estilo": "simple"
+    },
+    {
+      "tipo": "textos-con-imagen",
+      "contenidos": [
+        "<strong>\u00bb Fotograf\u00eda de Producto:</strong> Presentamos tus productos de la mejor manera posible, con im\u00e1genes n\u00edtidas, detalladas y atractivas que impulsar\u00e1n tus ventas y fortalecer\u00e1n tu marca.",
+        "<strong>\u00bb Fotograf\u00eda Corporativa y de Marca Personal:</strong> Construimos una imagen profesional y coherente que refleje los valores de tu empresa o tu marca personal, ideal para perfiles de LinkedIn, sitios web y material de marketing.",
+        "<strong>\u00bb Proyectos Art\u00edsticos y Creativos:</strong> Damos vida a tus ideas m\u00e1s audaces, experimentando con luz, color y composici\u00f3n para lograr resultados \u00fanicos y vanguardistas."
+      ],
+      "media": {
+        "posicion": "izquierda",
+    "imagen": "public/fotos-de-eventos/estudio/1.png"
+      }
+    }
+  ]
+}

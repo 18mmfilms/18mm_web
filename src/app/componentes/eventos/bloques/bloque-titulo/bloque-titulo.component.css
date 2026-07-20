@@ -1,0 +1,13 @@
+.bloque-titulo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .bloque-titulo {
+    font-size: 1.5rem;
+  }
+}

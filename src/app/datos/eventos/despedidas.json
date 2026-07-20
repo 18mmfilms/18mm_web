@@ -1,0 +1,28 @@
+﻿{
+  "hero": {
+    "titulo": "Despedidas",
+    "imagen": "public/fotos-de-eventos/despedidas/cabezera.png"
+  },
+  "bloques": [
+    {
+      "tipo": "parrafo",
+      "contenido": "Inmortalizamos la diversi\u00f3n, la locura y la complicidad \u00fanica de vuestras despedidas. Sabemos que este es uno de los momentos m\u00e1s esperados antes del gran d\u00eda, y nuestro objetivo es que pod\u00e1is disfrutarlo al m\u00e1ximo mientras nosotros nos encargamos de capturar cada instante inolvidable."
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": "Buscamos crear un ambiente relajado y de total confianza donde pod\u00e1is ser vosotros mismos. Nuestra metodolog\u00eda combina la fotograf\u00eda documental y espont\u00e1nea, para captar esas risas naturales y situaciones inesperadas con posados divertidos y creativos que resalten la uni\u00f3n del grupo. No se trata solo de hacer fotos, sino de crear una experiencia amena que forme parte de la propia celebraci\u00f3n."
+    },
+    {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/despedidas/1.png",
+        "public/fotos-de-eventos/despedidas/2.png",
+        "public/fotos-de-eventos/despedidas/3.png"
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": "Ya sea una jornada de aventura, una fiesta tem\u00e1tica o una tarde de relax, nos adaptamos al estilo de vuestro grupo para ofreceros un recuerdo perfecto y profesional. Es la oportunidad ideal para tener im\u00e1genes de alta calidad de todos vuestros amigos y familiares juntos, celebrando la amistad y el camino hacia el \u201cs\u00ed, quiero\u201d."
+    }
+  ]
+}

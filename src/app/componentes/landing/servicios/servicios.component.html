@@ -1,0 +1,13 @@
+<section class="servicios">
+  <div class="contenedor-principal">
+    <h2 class="servicios__titulo">Servicios que ofrecemos</h2>
+    <div class="servicios-grid">
+      @for (servicio of servicios; track servicio.nombre) {
+      <div class="servicio-grid-item">
+        <img [src]="servicio.imagen || 'public/no-imagen/no-imagen.jpg'" alt="" class="servicio-grid-imagen" />
+        <p class="servicio-grid-nombre">{{ servicio.nombre }}</p>
+      </div>
+      }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,51 @@
+.hero-legal {
+  background-color: var(--color-bg-footer);
+  color: var(--color-titulos);
+  padding: 6rem 0 3rem;
+}
+
+.hero-legal__contenido {
+  text-align: center;
+}
+
+.hero-legal__titulo {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.pagina-legal {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.pagina-legal__seccion {
+  margin-bottom: 2.5rem;
+}
+
+.pagina-legal__subtitulo {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.pagina-legal__texto {
+  text-align: justify;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.pagina-legal__lista {
+  margin: 1rem 0 0;
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .hero-legal {
+    padding: 5rem 0 2rem;
+  }
+
+  .hero-legal__titulo {
+    font-size: 1.8rem;
+  }
+}

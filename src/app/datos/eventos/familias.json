@@ -1,0 +1,49 @@
+﻿{
+  "hero": {
+    "titulo": "Familias y Ni\u00f1os",
+    "imagen": "public/fotos-de-eventos/familias/cabezera.png"
+  },
+  "bloques": [
+    {
+      "tipo": "parrafo",
+      "contenido": "En el coraz\u00f3n de cada familia reside una historia \u00fanica, tejida con risas, abrazos, miradas c\u00f3mplices y el amor incondicional. En nuestro estudio, nos dedicamos a congelar en el tiempo la conexi\u00f3n y el amor de vuestra familia, transformando esos instantes ef\u00edmeros en un tesoro visual que perdurar\u00e1 por generaciones. Entendemos que la vida familiar es un torbellino de emociones y crecimiento, y nuestra pasi\u00f3n es capturar esa autenticidad con sensibilidad y arte."
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": "Creamos sesiones naturales y divertidas, dise\u00f1adas para que cada miembro de la familia se sienta c\u00f3modo y libre de ser uno mismo. Nuestro objetivo es ir m\u00e1s all\u00e1 de la imagen y capturar la alegr\u00eda de los m\u00e1s peque\u00f1os.",
+      "media": {
+        "posicion": "derecha",
+    "imagen": "public/fotos-de-eventos/familias/1.png"
+      }
+    },
+    {
+      "tipo": "cita",
+      "texto": "Cada fotograf\u00eda es una ventana a vuestro mundo; un recuerdo tangible de la etapa que hoy viv\u00eds.",
+      "autor": ""
+    },
+    {
+      "tipo": "separador",
+      "estilo": "simple"
+    },
+    {
+      "tipo": "titulo",
+      "contenido": "VUESTRA HISTORIA, VUESTRO ESCENARIO:"
+    },
+    {
+      "tipo": "columnas-texto",
+      "izquierda": "<strong>SESIONES EN EXTERIORES</strong><br><br>Imaginad un atardecer dorado en un campo de flores, un paseo juguet\u00f3n por el parque o la brisa marina en vuestros rostros. Estos escenarios son el refugio ideal para las familias que buscan espontaneidad y aventura. Aqu\u00ed, la luz natural y el paisaje se funden para capturar momentos de exploraci\u00f3n y conexi\u00f3n genuina. Nos adaptamos a vuestro ritmo, dejando que la personalidad de cada uno brille en un ambiente relajado, libre y sin prisas.",
+      "derecha": "<strong>SESIONES A DOMICILIO</strong><br>La intimidad de vuestro refugio. No hay escenario m\u00e1s aut\u00e9ntico para una familia que su propio hogar. Estas sesiones nos permiten capturar la esencia de vuestro d\u00eda a d\u00eda y esos detalles que os hacen \u00fanicos: desde los primeros despertares de un reci\u00e9n nacido, hasta una tarde de juegos en el sal\u00f3n o vuestra receta favorita en la cocina. Nos integramos con discreci\u00f3n en vuestro espacio para documentar la vida tal como es, transformando vuestra rutina en un legado lleno de significado y calidez."
+    },
+    {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/familias/2.png",
+        "public/fotos-de-eventos/familias/3.png"
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": "Permitidnos ser los narradores visuales de vuestra historia familiar. Cont\u00e1ctanos para dise\u00f1ar una sesi\u00f3n que capture la magia de vuestros momentos m\u00e1s preciados. Estamos deseando conoceros y crear juntos recuerdos inolvidables."
+    }
+  ]
+}

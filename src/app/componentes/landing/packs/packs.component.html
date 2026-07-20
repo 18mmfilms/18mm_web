@@ -1,0 +1,25 @@
+<section class="packs">
+  <div class="contenedor-principal">
+    <h2 class="packs__titulo">Packs que ofrecemos</h2>
+
+
+    <p style="text-align: center;">Para que conservéis vuestros recuerdos de la forma que más os guste, disponemos de
+      varias opciones de packs que
+      incluyen.</p>
+
+
+
+    <div class="packs__grid">
+      @for (pack of packs; track pack.nombre) {
+      <div class="packs__item">
+        <img [src]="pack.imagen" alt="" class="packs__placeholder" />
+        <p class="packs__nombre">{{ pack.nombre }}</p>
+        <p class="packs__descripcion">{{ pack.descripcion }}</p>
+      </div>
+      }
+    </div>
+    <p class="packs__footer">Para recibir información detallada sobre nuestros packs y tarifas, por favor, pongase en
+      contacto con nosotros.
+      Estaremos encantados de ayudaros a encontrar la opción perfecta para vuestro día.</p>
+  </div>
+</section>

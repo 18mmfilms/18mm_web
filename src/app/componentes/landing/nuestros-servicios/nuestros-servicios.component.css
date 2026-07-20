@@ -1,0 +1,129 @@
+.nuestros-servicios {
+  padding: 4rem 0;
+  position: relative;
+}
+
+.nuestros-servicios__titulo {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.nuestros-servicios__subtitulo {
+  margin-bottom: 2rem;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.eventos-grid {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.evento-grid-item:nth-child(n+9) {
+  display: none;
+}
+
+.eventos-grid--completos .evento-grid-item:nth-child(n+9) {
+  display: flex;
+}
+
+.eventos-grid::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(to top, var(--color-fondo) 0%, transparent 100%);
+  pointer-events: none;
+}
+
+.eventos-grid--completos::after {
+  display: none;
+}
+
+.evento-grid-item {
+  position: relative;
+  flex: 0 0 calc(100% / 4 - 1.2rem);
+  min-width: 200px;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.evento-grid-imagen {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+.evento-grid-nombre {
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  color: var(--color-evento-grid-nombre);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  padding: 0 0.5rem;
+}
+
+.nuestros-servicios__pie {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.nuestros-servicios__boton {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: var(--color-bg-botones);
+  color: var(--color-texto-botones);
+  border: none;
+  border-radius: 4px;
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.nuestros-servicios__boton:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .nuestros-servicios {
+    padding: 3rem 0;
+  }
+
+  .nuestros-servicios__titulo {
+    font-size: 1.5rem;
+  }
+
+  .eventos-grid {
+    max-height: 420px;
+    overflow-y: auto;
+    justify-content: center;
+  }
+
+  .eventos-grid::after {
+    display: none;
+  }
+
+  .evento-grid-item:nth-child(n+9) {
+    display: flex;
+  }
+
+  .evento-grid-item {
+    flex: 0 0 calc(100% / 2 - 1rem);
+    min-width: unset;
+  }
+
+  .nuestros-servicios__pie {
+    display: none;
+  }
+}

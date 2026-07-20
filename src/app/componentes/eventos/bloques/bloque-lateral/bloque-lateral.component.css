@@ -1,0 +1,44 @@
+.bloque-lateral {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.bloque-lateral__imagenes {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bloque-lateral__placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bloque-lateral__textos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.bloque-lateral__parrafo {
+  text-align: justify;
+  line-height: 1.8;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .bloque-lateral {
+    flex-direction: column;
+  }
+
+  .bloque-lateral__imagenes {
+    flex: none;
+    width: 100%;
+  }
+}

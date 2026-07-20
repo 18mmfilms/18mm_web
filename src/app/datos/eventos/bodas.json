@@ -1,0 +1,38 @@
+﻿{
+  "hero": {
+    "titulo": "Bodas",
+    "imagen": "public/fotos-de-eventos/bodas/cabezera.png"
+  },
+  "bloques": [
+    {
+      "tipo": "parrafo",
+      "contenido": "Capturamos la esencia de vuestro gran d\u00eda, desde los preparativos hasta la fiesta final. Nos encargamos de documentar cada sonrisa, cada l\u00e1grima de alegr\u00eda y cada detalle significativo, creando un recuerdo imborrable de vuestra historia de amor. Ofrecemos tanto fotograf\u00eda como v\u00eddeo, con opciones de edici\u00f3n din\u00e1mica para revivir los momentos m\u00e1s emotivos."
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": "Vuestra boda dura un d\u00eda, pero los recuerdos deben durar toda la vida. Nuestra misi\u00f3n es entregaros un tesoro visual que pod\u00e1is compartir con vuestros seres queridos a\u00f1o tras a\u00f1o. No solo entregamos fotos y v\u00eddeos; entregamos la posibilidad de volver a sentir la emoci\u00f3n de vuestro \u2018s\u00ed, quiero\u2019 cada vez que puls\u00e9is al \u201cplay \u201do abr\u00e1is vuestro \u00e1lbum. Queremos acompa\u00f1aros en cada paso de este viaje. Por eso, adem\u00e1s del d\u00eda de la boda, incluimos opciones de preboda y posboda. La preboda es ideal para romper el hielo y perder el miedo a la c\u00e1mara, mientras que la posboda nos permite crear retratos m\u00e1gicos y relajados en localizaciones de ensue\u00f1o, completando as\u00ed el relato perfecto de vuestro amor.",
+      "media": {
+        "posicion": "derecha",
+        "imagen": "public/fotos-de-eventos/bodas/14.png"
+      }
+    },
+    {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/bodas/1.png",
+        "public/fotos-de-eventos/bodas/2.png",
+        "public/fotos-de-eventos/bodas/3.png",
+        "public/fotos-de-eventos/bodas/4.png",
+        "public/fotos-de-eventos/bodas/5.png",
+        "public/fotos-de-eventos/bodas/6.png",
+        "public/fotos-de-eventos/bodas/7.png",
+        "public/fotos-de-eventos/bodas/8.png",
+        "public/fotos-de-eventos/bodas/9.png",
+        "public/fotos-de-eventos/bodas/10.png",
+        "public/fotos-de-eventos/bodas/11.png",
+        "public/fotos-de-eventos/bodas/12.png",
+        "public/fotos-de-eventos/bodas/13.png"
+      ]
+    }
+  ]
+}

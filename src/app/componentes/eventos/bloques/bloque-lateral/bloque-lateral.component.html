@@ -1,0 +1,12 @@
+<div class="bloque-lateral">
+  <div class="bloque-lateral__imagenes">
+    @for (img of imagenes; track $index) {
+      <img [src]="img" alt="" class="bloque-lateral__placeholder" />
+    }
+  </div>
+  <div class="bloque-lateral__textos">
+    @for (texto of contenidos; track $index) {
+      <p class="bloque-lateral__parrafo" [innerHTML]="texto"></p>
+    }
+  </div>
+</div>

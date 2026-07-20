@@ -1,0 +1,9 @@
+.bloque-video {
+  width: 100%;
+}
+
+.bloque-video__player {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #d0d0d0;
+}

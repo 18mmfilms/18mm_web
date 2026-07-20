@@ -1,0 +1,9 @@
+<div class="hero">
+  <img [src]="hero?.imagen || 'public/no-imagen/no-imagen.jpg'" alt="" class="hero__imagen" />
+  <div class="hero__texto">
+    <h1 class="hero__titulo">{{ hero?.titulo }}</h1>
+    @if (hero?.subtitulo) {
+      <p class="hero__subtitulo">{{ hero?.subtitulo }}</p>
+    }
+  </div>
+</div>

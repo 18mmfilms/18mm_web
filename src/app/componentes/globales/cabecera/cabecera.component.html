@@ -1,0 +1,29 @@
+<header #cabeceraEl class="cabecera" [class.cabecera--menu-abierto]="menuAbierto()">
+  <a routerLink="/" class="cabecera__logo cabecera__logo--fijo"><img src="public/logo.jpg" alt="18mm" class="cabecera__logo-imagen" /></a>
+  <div class="contenedor-principal cabecera__interior">
+    <button class="cabecera__hamburguesa" (click)="toggleMenu()" aria-label="Men&uacute;">
+      <span class="cabecera__hamburguesa-linea"></span>
+      <span class="cabecera__hamburguesa-linea"></span>
+      <span class="cabecera__hamburguesa-linea"></span>
+    </button>
+    <nav class="cabecera__nav" [class.cabecera__nav--visible]="menuAbierto()">
+      <a routerLink="/" class="cabecera__logo cabecera__logo--movil" (click)="cerrarMenu()"><img src="public/logo.jpg" alt="18mm" class="cabecera__logo-imagen" /></a>
+      <div class="cabecera__grupo-izq">
+        <a routerLink="/" class="cabecera__enlace" (click)="cerrarMenu()">Inicio</a>
+        <div class="cabecera__dropdown">
+          <button class="cabecera__enlace cabecera__enlace--dropdown" [class.cabecera__enlace--activo]="eventosAbierto()" (click)="toggleEventos()">Eventos</button>
+          <div class="cabecera__menu" [class.cabecera__menu--visible]="eventosAbierto()">
+            @for (evento of eventos; track evento.ruta) {
+              <a [routerLink]="['/eventos', evento.ruta]" class="cabecera__item" (click)="cerrarMenu()">{{ evento.nombre }}</a>
+            }
+          </div>
+        </div>
+      </div>
+      <a routerLink="/" class="cabecera__logo cabecera__logo--desktop" (click)="cerrarMenu()"><img src="public/logo.jpg" alt="18mm" class="cabecera__logo-imagen" /></a>
+      <div class="cabecera__grupo-der">
+        <a routerLink="/sobre-nosotros" class="cabecera__enlace" (click)="cerrarMenu()">Sobre nosotros</a>
+        <a routerLink="/contacto" class="cabecera__enlace" (click)="cerrarMenu()">Contacto</a>
+      </div>
+    </nav>
+  </div>
+</header>

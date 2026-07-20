@@ -1,0 +1,90 @@
+﻿[
+  {
+    "id": 1,
+    "nombre": "Bodas",
+    "ruta": "bodas",
+    "archivo": "bodas.json",
+    "heroImagen": "public/no-imagen/no-imagen.jpg",
+    "imagen": "public/carrusel-principal/bodas.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Despedidas",
+    "ruta": "despedidas",
+    "archivo": "despedidas.json",
+    "heroImagen": "public/eventos/despedidas.jpg",
+    "imagen": "public/eventos/despedidas.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Parejas",
+    "ruta": "parejas",
+    "archivo": "parejas.json",
+    "heroImagen": "public/eventos/parejas.jpeg",
+    "imagen": "public/eventos/parejas.jpeg"
+  },
+  {
+    "id": 4,
+    "nombre": "Embarazos",
+    "ruta": "embarazos",
+    "archivo": "embarazos.json",
+    "heroImagen": "public/eventos/embarazos.jpg",
+    "imagen": "public/eventos/embarazos.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Familias y Niños",
+    "ruta": "familias",
+    "archivo": "familias.json",
+    "heroImagen": "public/eventos/familias.jpg",
+    "imagen": "public/eventos/familias.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Estudio",
+    "ruta": "estudio",
+    "archivo": "estudio.json",
+    "heroImagen": "public/eventos/estudio.jpg",
+    "imagen": "public/eventos/estudio.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Conciertos",
+    "ruta": "conciertos",
+    "archivo": "conciertos.json",
+    "heroImagen": "public/eventos/conciertos.jpg",
+    "imagen": "public/eventos/conciertos.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Festivales",
+    "ruta": "festivales",
+    "archivo": "festivales.json",
+    "heroImagen": "public/eventos/festivales.jpeg",
+    "imagen": "public/eventos/festivales.jpeg"
+  },
+  {
+    "id": 9,
+    "nombre": "Bautizos / Comuniones",
+    "ruta": "bautizos-comuniones",
+    "archivo": "bautizos-comuniones.json",
+    "heroImagen": "public/eventos/bautizos.jpg",
+    "imagen": "public/eventos/bautizos.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Colaboraciones",
+    "ruta": "colaboraciones",
+    "archivo": "colaboraciones.json",
+    "heroImagen": "public/eventos/colaboraciones.jpeg",
+    "imagen": "public/eventos/colaboraciones.jpeg"
+  },
+  {
+    "id": 11,
+    "nombre": "Prensa",
+    "ruta": "prensa",
+    "archivo": "prensa.json",
+    "heroImagen": "public/eventos/prensa.jpeg",
+    "imagen": "public/eventos/prensa.jpeg"
+  }
+]

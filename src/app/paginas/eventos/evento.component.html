@@ -1,0 +1,55 @@
+<app-cabecera />
+
+@if (snippetVisible()) {
+  <app-snippet-carga-evento [mostrar]="mostrarSnippet()" />
+}
+
+@if (datos(); as data) {
+  <div class="evento">
+    @if (data.hero) {
+      <app-hero [hero]="data.hero" />
+    }
+    <div class="contenedor-principal evento__contenido">
+      @for (bloque of data.bloques; track $index) {
+        @switch (bloque.tipo) {
+          @case ('parrafo') {
+            <app-bloque-parrafo [bloque]="bloque" />
+          }
+          @case ('galeria') {
+            <app-bloque-galeria [imagenes]="bloque.imagenes" />
+          }
+          @case ('video') {
+            <app-bloque-video [archivo]="bloque.archivo" [poster]="bloque.poster" />
+          }
+          @case ('cita') {
+            <app-bloque-cita [texto]="bloque.texto" [autor]="bloque.autor" />
+          }
+          @case ('separador') {
+            <app-bloque-separador [estilo]="bloque.estilo" />
+          }
+          @case ('titulo') {
+            <app-bloque-titulo [contenido]="bloque.contenido" />
+          }
+          @case ('subtitulo') {
+            <app-bloque-subtitulo [contenido]="bloque.contenido" [nivel]="bloque.nivel" />
+          }
+          @case ('columnas-texto') {
+            <app-bloque-columnas-texto [izquierda]="bloque.izquierda" [derecha]="bloque.derecha" />
+          }
+          @case ('textos-con-imagen') {
+            <app-bloque-textos-con-imagen [contenidos]="bloque.contenidos" [bloque]="bloque" />
+          }
+          @case ('lateral') {
+            <app-bloque-lateral [imagenes]="bloque.imagenes" [contenidos]="bloque.contenidos" />
+          }
+          @case ('foto') {
+            <app-bloque-foto [archivo]="bloque.archivo" />
+          }
+          @case ('lista') {
+            <app-bloque-lista [items]="bloque.items" />
+          }
+        }
+      }
+    </div>
+  </div>
+}

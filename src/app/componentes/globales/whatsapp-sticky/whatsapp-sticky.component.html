@@ -1,0 +1,39 @@
+<button class="whatsapp-sticky" (click)="toggleChat()" aria-label="WhatsApp">
+  <img src="public/redes-sociales/whatsapp.png" alt="WhatsApp" class="whatsapp-sticky__icono" />
+  @if (notificacionVisible()) {
+    <span class="whatsapp-sticky__notificacion"></span>
+  }
+</button>
+
+@if (chatAbierto()) {
+  <div class="whatsapp-chat">
+    <div class="chat-header">
+      <div class="chat-header__content">
+        <img src="public/logo.jpg" alt="18mm" class="chat-header__avatar" />
+        <div class="chat-header__info">
+          <p class="chat-header__nombre">18mm</p>
+          <p class="chat-header__estado">Online</p>
+        </div>
+      </div>
+    </div>
+    <div class="chat-body">
+      <div class="chat-mensaje">
+        @if (cargando()) {
+          <div class="chat-loading">
+            <span class="chat-loading__dot"></span>
+            <span class="chat-loading__dot"></span>
+            <span class="chat-loading__dot"></span>
+          </div>
+        } @else {
+          <p class="chat-mensaje__texto">¡Hola! 👋 Bienvenid&#64; a 18mm.films. Estamos aquí para ayudarte a capturar momentos únicos. 😊</p>
+          <p class="chat-mensaje__texto">Por favor, cuéntanos:<br />📸 ¿Qué tipo de sesión te interesa? (boda, familia, embarazo, retratos, etc.)<br />🗓️ ¿Tienes una fecha en mente?<br />🌍 ¿Dónde te gustaría que se realice la sesión?</p>
+          <p class="chat-mensaje__texto">¡Responde estos detalles y te contactaremos lo antes posible!</p>
+        }
+      </div>
+      <button class="chat-btn-whatsapp" (click)="irAWhatsApp()">
+        <img src="public/redes-sociales/whatsapp.png" alt="" class="chat-btn-whatsapp__icono" />
+        Ir a WhatsApp
+      </button>
+    </div>
+  </div>
+}

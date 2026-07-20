@@ -1,0 +1,33 @@
+<footer class="footer">
+  <div class="contenedor-principal footer__interior">
+    <div class="footer__col">
+      <h3 class="footer__titulo">18MM FILMS</h3>
+      <p class="footer__texto">Fotograf&iacute;a profesional</p>
+      <ul class="footer__contacto">
+        <li>films18mm&#64;gmail.com</li>
+        <li>+34 679 50 41 94</li>
+        <li>+34 722 42 24 14</li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h3 class="footer__titulo">S&iacute;guenos</h3>
+      <div class="footer__redes">
+        @for (red of redes; track red.nombre) {
+          <a [href]="red.url" class="footer__red" target="_blank" rel="noopener noreferrer" [attr.aria-label]="red.nombre">
+            <img [src]="red.imagen" [alt]="red.nombre" class="footer__red-imagen" />
+          </a>
+        }
+      </div>
+    </div>
+  </div>
+  <div class="footer__legal">
+    <div class="contenedor-principal footer__legal-interior">
+      <p class="footer__copyright">&copy; 2026 18MM FILMS. Todos los derechos reservados.</p>
+      <div class="footer__legal-enlaces">
+        <a routerLink="/politica-privacidad" class="footer__enlace">Pol&iacute;tica de Privacidad</a>
+        <a routerLink="/politica-cookies" class="footer__enlace">Pol&iacute;tica de Cookies</a>
+        <a routerLink="/condiciones" class="footer__enlace">Condiciones de Uso</a>
+      </div>
+    </div>
+  </div>
+</footer>

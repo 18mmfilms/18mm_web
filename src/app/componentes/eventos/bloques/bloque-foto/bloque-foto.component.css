@@ -1,0 +1,19 @@
+.bloque-foto {
+  display: flex;
+  justify-content: center;
+}
+
+.bloque-foto__enlace {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  text-decoration: none;
+}
+
+.bloque-foto__imagen {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background-color: #d0d0d0;
+  cursor: pointer;
+}

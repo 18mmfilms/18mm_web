@@ -1,0 +1,17 @@
+.bloque-columnas-texto {
+  display: flex;
+  gap: 2rem;
+}
+
+.bloque-columnas-texto__columna {
+  flex: 1;
+  text-align: justify;
+  line-height: 1.8;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .bloque-columnas-texto {
+    flex-direction: column;
+  }
+}

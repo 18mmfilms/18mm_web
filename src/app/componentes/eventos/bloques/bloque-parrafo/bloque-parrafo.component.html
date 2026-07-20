@@ -1,0 +1,8 @@
+@if (bloque?.media?.imagen) {
+  <div class="bloque-parrafo-con-imagen" [class.bloque-parrafo-con-imagen--invertido]="posicionInvertida">
+    <img [src]="bloque?.media?.imagen || 'public/no-imagen/no-imagen.jpg'" alt="" class="bloque-parrafo-con-imagen__imagen" />
+    <p class="bloque-parrafo-con-imagen__texto" [innerHTML]="bloque.contenido"></p>
+  </div>
+} @else {
+  <p class="bloque-parrafo" [innerHTML]="bloque?.contenido"></p>
+}

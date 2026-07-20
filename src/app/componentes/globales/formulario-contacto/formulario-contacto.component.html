@@ -1,0 +1,51 @@
+@if (estado() === 'enviado') {
+  <div class="formulario-contacto__mensaje formulario-contacto__mensaje--exito">
+    &iexcl;Mensaje enviado correctamente! Te responderemos en menos de 24 horas.
+  </div>
+} @else {
+  <form class="formulario-contacto" #form="ngForm" (ngSubmit)="form.valid && enviarFormulario()">
+    <div class="formulario-contacto__campo">
+      <label class="formulario-contacto__etiqueta" for="nombre">Nombre *</label>
+      <input class="formulario-contacto__input" id="nombre" type="text" [(ngModel)]="formData.nombre" name="nombre" required />
+    </div>
+    <div class="formulario-contacto__campo">
+      <label class="formulario-contacto__etiqueta" for="email">Email *</label>
+      <input class="formulario-contacto__input" id="email" type="email" [(ngModel)]="formData.email" name="email" required email />
+    </div>
+    <div class="formulario-contacto__campo">
+      <label class="formulario-contacto__etiqueta" for="telefono">Tel&eacute;fono *</label>
+      <input class="formulario-contacto__input" id="telefono" type="tel" [(ngModel)]="formData.telefono" name="telefono" required />
+    </div>
+    <div class="formulario-contacto__campo">
+      <label class="formulario-contacto__etiqueta" for="evento">Por favor elige una opci&oacute;n *</label>
+      <select class="formulario-contacto__input" id="evento" [(ngModel)]="formData.evento" name="evento" required>
+        <option value="">Selecciona un evento</option>
+        @for (evento of eventos; track evento.ruta) {
+          <option [value]="evento.nombre">{{ evento.nombre }}</option>
+        }
+      </select>
+    </div>
+    <div class="formulario-contacto__campo">
+      <label class="formulario-contacto__etiqueta" for="provincia">Provincia de la sesi&oacute;n</label>
+      <input class="formulario-contacto__input" id="provincia" type="text" [(ngModel)]="formData.provincia" name="provincia" />
+    </div>
+    <div class="formulario-contacto__campo">
+      <label class="formulario-contacto__etiqueta" for="fecha">Fecha de la sesi&oacute;n *</label>
+      <input class="formulario-contacto__input" id="fecha" type="date" [(ngModel)]="formData.fecha" name="fecha" required />
+    </div>
+    <div class="formulario-contacto__campo">
+      <label class="formulario-contacto__etiqueta" for="mensaje">Escribe tu mensaje</label>
+      <textarea class="formulario-contacto__input formulario-contacto__textarea" id="mensaje" [(ngModel)]="formData.mensaje" name="mensaje"></textarea>
+    </div>
+    <button class="formulario-contacto__boton" type="submit" [disabled]="estado() === 'enviando'">
+      @if (estado() === 'enviando') {
+        Enviando...
+      } @else {
+        Enviar
+      }
+    </button>
+    @if (estado() === 'error') {
+      <p class="formulario-contacto__mensaje formulario-contacto__mensaje--error">Hubo un error al enviar el mensaje. Int&eacute;ntalo de nuevo.</p>
+    }
+  </form>
+}

@@ -1,0 +1,209 @@
+================================================================================
+                          TUTORIAL BASICO DEL PROYECTO
+                       Como editar colores, textos e imagenes
+================================================================================
+
+
+====================  1. ARCHIVOS IMPORTANTES  ====================
+
+
+  RUTA:  src/style/config.css
+  ----------------------------------------
+  SIRVE PARA:  Cambiar los colores y las tipografias (letras) de toda la web.
+  Solo hay que cambiar el valor despues de los dos puntos.
+  Ejemplo:   --color-fondo: #EAEAEC;   -->   --color-fondo: #ffffff;
+  Cada linea tiene un comentario que explica para que sirve (/* ... */).
+
+
+  RUTA:  src/app/datos/eventos.json
+  ----------------------------------------
+  SIRVE PARA:  Definir que eventos aparecen en la web (Bodas, Parejas, etc.).
+  Aqui se añaden NUEVOS eventos o se renombran los existentes.
+  Cada evento tiene: nombre, ruta (la URL), archivo (el JSON del contenido)
+  e imagen de portada.
+
+
+  RUTA:  src/app/datos/eventos/  (carpeta)
+  ----------------------------------------
+  SIRVE PARA:  Aqui dentro estan los archivos .json de cada evento.
+  Cada archivo contiene el contenido de una pagina de evento
+  (textos, fotos, videos, citas...).
+
+
+  RUTA:  src/app/datos/eventos/plantilla.json
+  ----------------------------------------
+  SIRVE PARA:  Es un ejemplo de TODOS los tipos de bloque disponibles.
+  Sirve de referencia para crear nuevos eventos.
+
+
+  RUTA:  public/no-imagen/no-imagen.jpg
+  ----------------------------------------
+  SIRVE PARA:  Es la imagen por defecto que se muestra mientras no se
+  pongan las fotos reales. Cuando tengais las fotos reales, solo hay
+  que cambiar la ruta en el JSON correspondiente.
+
+
+  RUTA:  src/public/logo.jpg
+  ----------------------------------------
+  SIRVE PARA:  El logotipo de la empresa que aparece en el menu superior
+  y en el chat de WhatsApp.
+
+
+
+
+====================  2. COMO AÑADIR UN EVENTO NUEVO  ====================
+
+
+  PASO 1 - Ir al archivo:  src/app/datos/eventos.json
+  PASO 2 - Añadir una nueva linea al final del array (antes del "]" final):
+
+    {
+      "id": 12,
+      "nombre": "Nombre del Evento",
+      "ruta": "eventos/nombre-del-evento",
+      "archivo": "nombre-del-archivo-del-evento.json",
+      "heroImagen": "public/no-imagen/no-imagen.jpg"
+    },
+    
+
+IMPORTANTE: Debes poner una coma al final siempre MENOS en el ultimo elemento.
+EJEMPLO CORRECTO:
+
+[
+    {
+      [datos del evento1...]
+    },   <-- SI PONER COMMA EN EL ULTIMO
+     {
+      [datos del evento2...]
+    },   <-- SI PONER COMMA EN EL ULTIMO
+     {
+      [datos del evento3...]
+    }    <-- NO PONER COMMA EN EL ULTIMO
+]
+
+    
+  PASO 3 - Crear un archivo nuevo en la carpeta:
+           src/app/datos/eventos/
+           Llamarlo igual que pusiste en "archivo" (ej: nombre-del-archivo-del-evento.json)
+
+  PASO 4 - Copiar el contenido de plantilla.json dentro de tu nuevo archivo
+           y editar los textos, imagenes, etc. (mirar la seccion 3 de este tutorial para ver los tipos de bloque).
+
+
+  IMPORTANTE:  
+
+            > El campo "ruta" se usa para la URL que aparecerá en el navegador y que los usuarios usarán para llegar a esa página. Por ejemplo, si ponemos "eventos/nombre-del-evento", el usuario ira a "www.com18mmfilms.com/eventos/nombre-del-evento".
+               
+            > El campo "archivo" es el nombre del JSON dentro de la carpeta, por ejemplo: nombre-del-archivo-del-evento.json.
+               
+
+
+
+
+====================  3. TIPOS DE BLOQUE (plantilla.json)  ====================
+
+
+  Cada pagina de evento se compone de "bloques". Estos son los tipos:
+
+
+  [BLOQUE "hero"]
+  Es la cabecera con imagen de fondo y titulo grande.
+  EJEMPLO:
+    "hero": { "titulo": "Mi Evento", "subtitulo": "Frase debajo" }
+
+
+  [BLOQUE "parrafo"]
+  Un texto con imagen opcional a la derecha o izquierda.
+  EJEMPLO:
+    { "tipo": "parrafo", "contenido": "Texto aqui",
+      "media": { "imagen": "public/no-imagen/no-imagen.jpg",
+                 "alt": "descripcion", "posicion": "derecha" } }
+
+
+  [BLOQUE "galeria"]
+  Varias fotos en fila que se abren en grande al hacer clic.
+  EJEMPLO:
+    { "tipo": "galeria",
+      "imagenes": ["ruta1.jpg", "ruta2.jpg", "ruta3.jpg"] }
+
+
+  [BLOQUE "cita"]
+  Una frase destacada con su autor.
+  EJEMPLO:
+    { "tipo": "cita", "texto": "Frase...", "autor": "Nombre" }
+
+
+  [BLOQUE "video"]
+  Un video embedded.
+  EJEMPLO:
+    { "tipo": "video", "archivo": "", "poster": "poster.jpg" }
+
+
+  [BLOQUE "separador"]
+  Una linea horizontal para separar secciones.
+  EJEMPLO:
+    { "tipo": "separador", "estilo": "linea" }
+
+
+
+
+====================  4. TIPOS DE BLOQUE ADICIONALES  ====================
+
+
+  [BLOQUE "titulo"]  -->  Un titulo intermedio (H3)
+    { "tipo": "titulo", "contenido": "Texto del titulo" }
+
+
+  [BLOQUE "subtitulo"]  -->  Un subtitulo (H4)
+    { "tipo": "subtitulo", "contenido": "Texto del subtitulo" }
+
+
+  [BLOQUE "foto"]  -->  Una foto individual a tamaño completo
+    { "tipo": "foto", "imagen": "public/no-imagen/no-imagen.jpg",
+      "alt": "Descripcion" }
+
+
+  [BLOQUE "textos-con-imagen"]  -->  Texto largo con imagen lateral
+    { "tipo": "textos-con-imagen",
+      "parrafos": ["Parrafo 1", "Parrafo 2"],
+      "media": { "imagen": "...", "alt": "...", "posicion": "izquierda" } }
+
+
+  [BLOQUE "lateral"]  -->  Dos imagenes apiladas en un lateral
+    { "tipo": "lateral",
+      "imagenes": ["img1.jpg", "img2.jpg"],
+      "contenido": "Texto al lado" }
+
+
+  [BLOQUE "lista"]  -->  Lista de elementos con viñetas
+    { "tipo": "lista", "elementos": ["Item 1", "Item 2", "Item 3"] }
+
+
+  [BLOQUE "columnas-texto"]  -->  Texto en dos columnas
+    { "tipo": "columnas-texto",
+      "columna1": "Texto columna 1",
+      "columna2": "Texto columna 2" }
+
+
+
+
+====================  5. CAMBIAR IMAGENES  ====================
+
+
+  Para cambiar una imagen, SOLO hay que sustituir el archivo en la carpeta: "src/public/[carpeta de la imagen]"
+  
+  La ruta en el JSON se escribe siempre empezando por "public/..."
+  Ejemplo:  "imagen": "public/badas/boda-1.jpg"
+
+
+
+
+====================  6. CAMBIAR SERVICIOS  ====================
+
+
+  RUTA:  src/app/datos/servicios.json
+  ----------------------------------------
+  Aqui se definen los servicios que aparecen en la landing (Fotografia, Video, Dron, Invitaciones).
+
+  Se pueden añadir, quitar o renombrar sin problemas, se van añadiendo.
+

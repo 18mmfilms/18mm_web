@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Fotografía",
+    "ruta": "fotografia",
+    "imagen": "public/servicios/fotografia.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Video",
+    "ruta": "video",
+    "imagen": "public/servicios/video.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Grabaciones con dron",
+    "ruta": "grabaciones-dron",
+    "imagen": "public/servicios/grabacion_dron.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Realización de invitaciones",
+    "ruta": "invitaciones",
+    "imagen": "public/servicios/invitaciones.png"
+  }
+]

@@ -1,0 +1,100 @@
+﻿{
+  "hero": {
+    "titulo": "Prensa",
+    "imagen": "public/fotos-de-eventos/prensa/cabezera.png"
+  },
+  "bloques": [
+    {
+      "tipo": "parrafo",
+      "contenido": "En Control de Realizaci\u00f3n, tuve la oportunidad de manejar la Mesa de Sonido y la Mesa de VTR, siendo parte esencial de la producci\u00f3n en debates, entrevistas e informativos. Montaje de platos y grabaciones de noticias en la calle, utilizando la c\u00e1mara ENG para cubrir eventos de todo tipo, desde convocatorias pol\u00edticas hasta cert\u00e1menes y espect\u00e1culos musicales. Esta experiencia me ha ense\u00f1ado a trabajar bajo presi\u00f3n, adapt\u00e1ndome r\u00e1pidamente a diferentes situaciones y manteniendo siempre el enfoque en la excelencia del producto final."
+    },
+    {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/prensa/1.png",
+        "public/fotos-de-eventos/prensa/2.png",
+        "public/fotos-de-eventos/prensa/3.png",
+        "public/fotos-de-eventos/prensa/4.png",
+        "public/fotos-de-eventos/prensa/6.png",
+        "public/fotos-de-eventos/prensa/7.png"
+      ]
+    },
+    {
+      "tipo": "separador",
+      "estilo": "simple"
+    },
+    {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/prensa/8.png",
+        "public/fotos-de-eventos/prensa/9.png"
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "nivel": "h3",
+      "contenido": "7TV ANDALUC\u00cdA"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": "Durante la retransmisi\u00f3n en directo particip\u00e9 activamente en la captura de im\u00e1genes, adapt\u00e1ndome a las condiciones cambiantes del recorrido y a un clima poco favorable, siempre con el objetivo de ofrecer planos estables, cuidados y que transmitieran la esencia del momento. La coordinaci\u00f3n constante con el equipo t\u00e9cnico y de realizaci\u00f3n fue clave para garantizar una cobertura fluida y de calidad televisiva. Mi labor se centr\u00f3 en reflejar la emoci\u00f3n y solemnidad de la procesi\u00f3n, trasladando al espectador la grandeza del evento y contribuyendo a poner en valor el patrimonio cultural y religioso de la ciudad."
+    },
+    {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/prensa/10.png",
+        "public/fotos-de-eventos/prensa/11.png",
+        "public/fotos-de-eventos/prensa/12.png"
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": "Particip\u00e9 en la retransmisi\u00f3n en directo de la salida extraordinaria por los 600 a\u00f1os de la Hermandad. Fue un despliegue t\u00e9cnico de gran envergadura donde realic\u00e9 la cobertura audiovisual durante todo el recorrido, desde la salida en la Capilla de los Marineros hasta su paso por la Catedral y el regreso al barrio.<br><br>Lo que aport\u00e9 al proyecto<br>- Captaci\u00f3n en movimiento: Seguimiento de la procesi\u00f3n durante horas, manteniendo planos estables y de calidad televisiva a pesar de las aglomeraciones.<br>- Coordinaci\u00f3n t\u00e9cnica: Trabajo directo con realizaci\u00f3n para asegurar una emisi\u00f3n fluida y sin cortes durante los puntos clave del itinerario (Puente de Triana, Altozano, Pureza...).<br>- Adaptabilidad: Gesti\u00f3n de la c\u00e1mara en directo bajo condiciones de luz cambiantes y en un entorno de gran complejidad log\u00edstica.<br><br>Un trabajo de m\u00e1xima precisi\u00f3n para llevar un evento hist\u00f3rico de Sevilla a los espectadores en tiempo real."
+    },
+    {
+      "tipo": "separador",
+      "estilo": "simple"
+    },
+    {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/prensa/13.png",
+        "public/fotos-de-eventos/prensa/14.png"
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "nivel": "h3",
+      "contenido": "MEDIASET"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": "Tuve el privilegio de formar parte de los equipos de informativos de Cuatro y Telecinco. Esta experiencia me permiti\u00f3 trabajar en diversas localizaciones, cubriendo noticias tanto en Sevilla y sus alrededores como en otras ciudades clave de Andaluc\u00eda. Ha sido una etapa incre\u00edblemente enriquecedora, donde no solo he consolidado mis habilidades t\u00e9cnicas, sino que tambi\u00e9n he disfrutado enormemente del dinamismo y la exigencia del trabajo period\u00edstico."
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": "",
+      "media": {
+        "posicion": "",
+        "imagen": "public/fotos-de-eventos/prensa/14.png"
+      }
+    },
+    {
+      "tipo": "separador",
+      "estilo": "simple"
+    },
+    {
+      "tipo": "subtitulo",
+      "nivel": "h3",
+      "contenido": "Premios"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": "Me complace compartir que he sido galardonada con el primer premio en el concurso de carteles \u2018Vel\u00e1 de Pino Montano 2024\u2019. Este logro representa no solo un reconocimiento a mi trabajo, sino tambi\u00e9n a la pasi\u00f3n y dedicaci\u00f3n que pongo en cada proyecto. Estoy agradecida por la oportunidad de haber podido aportar mi visi\u00f3n a esta importante tradici\u00f3n y espero que mi cartel sea una ventana visual que capture la esencia de esta celebraci\u00f3n.",
+      "media": {
+        "posicion": "derecha",
+        "imagen": "public/fotos-de-eventos/prensa/15.png"
+      }
+    }
+  ]
+}

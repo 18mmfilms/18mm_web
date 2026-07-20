@@ -1,0 +1,8 @@
+<div class="bloque-textos-con-imagen" [class.bloque-textos-con-imagen--invertido]="posicionInvertida">
+  <img [src]="bloque?.media?.imagen || 'public/no-imagen/no-imagen.jpg'" alt="" class="bloque-textos-con-imagen__imagen" />
+  <div class="bloque-textos-con-imagen__textos">
+    @for (texto of contenidos; track $index) {
+      <p class="bloque-textos-con-imagen__parrafo" [innerHTML]="texto"></p>
+    }
+  </div>
+</div>

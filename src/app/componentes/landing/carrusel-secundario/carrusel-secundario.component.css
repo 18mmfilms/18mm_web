@@ -1,0 +1,90 @@
+.carrusel-secundario {
+  padding: 5rem 0;
+  position: relative;
+}
+
+.carrusel-secundario__titulo {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Ballet', cursive;
+}
+
+.embla {
+  overflow: hidden;
+  position: relative;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__contenedor {
+  display: flex;
+  gap: 1rem;
+}
+
+.embla__slide {
+  flex: 0 0 calc((100% - 3rem) / 4);
+  min-width: 0;
+}
+
+.embla__slide-imagen {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background-color: #d0d0d0;
+  cursor: pointer;
+  display: block;
+}
+
+.carrusel-secundario__boton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.carrusel-secundario__boton:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.carrusel-secundario__boton--anterior {
+  left: 10px;
+}
+
+.carrusel-secundario__boton--siguiente {
+  right: 10px;
+}
+
+@media (max-width: 768px) {
+  .carrusel-secundario {
+    padding: 3rem 0;
+  }
+
+  .carrusel-secundario__titulo {
+    font-size: 2.5rem;
+  }
+
+  .embla__slide {
+    flex: 0 0 calc((100% - 2rem) / 3);
+  }
+}
+
+@media (max-width: 480px) {
+  .embla__slide {
+    flex: 0 0 100%;
+  }
+}

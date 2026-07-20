@@ -1,0 +1,28 @@
+<section class="carrusel-principal">
+  <div class="embla" #emblaViewport>
+    <div class="embla__container">
+      @for (img of imagenes; track $index) {
+        <div class="embla__slide">
+          <img [src]="img.src" [alt]="img.alt" class="embla__slide-imagen" />
+          <div class="embla__slide-overlay">
+            <h2 class="embla__slide-titulo">{{ img.titulo }}</h2>
+            @if (img.subtitulo) {
+              <p class="embla__slide-subtitulo">{{ img.subtitulo }}</p>
+            }
+          </div>
+        </div>
+      }
+    </div>
+    <button class="carrusel-principal__flecha carrusel-principal__flecha--izquierda" (click)="scrollPrev()" aria-label="Anterior">
+      <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+    </button>
+    <button class="carrusel-principal__flecha carrusel-principal__flecha--derecha" (click)="scrollNext()" aria-label="Siguiente">
+      <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+    </button>
+    <div class="carrusel-principal__dots">
+      @for (img of imagenes; track $index) {
+        <button class="carrusel-principal__dot" [class.carrusel-principal__dot--activo]="$index === selectedIndex()" (click)="embla?.scrollTo($index)" [attr.aria-label]="'Ir a imagen ' + ($index + 1)"></button>
+      }
+    </div>
+  </div>
+</section>

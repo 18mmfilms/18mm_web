@@ -1,0 +1,29 @@
+.bloque-cita {
+  margin: 0;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-left: 4px solid var(--color-bg-botones);
+  text-align: center;
+}
+
+.bloque-cita__texto {
+  font-size: 1.3rem;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 0 0 1rem;
+}
+
+.bloque-cita__autor {
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .bloque-cita {
+    padding: 1.5rem;
+  }
+
+  .bloque-cita__texto {
+    font-size: 1.1rem;
+  }
+}

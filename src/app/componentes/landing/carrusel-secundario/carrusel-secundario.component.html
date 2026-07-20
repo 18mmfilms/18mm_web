@@ -1,0 +1,22 @@
+<section class="carrusel-secundario">
+  <div class="contenedor-principal">
+    <h2 class="carrusel-secundario__titulo">Hacemos eterno lo que dura un instante</h2>
+    <div class="embla">
+      <div class="embla__viewport" #emblaViewport>
+        <div class="embla__contenedor">
+          @for (img of imagenes; track $index) {
+            <a class="embla__slide" (click)="$event.preventDefault(); abrirLightbox($index)">
+              <img [src]="img.src" [alt]="img.alt" class="embla__slide-imagen" loading="lazy" />
+            </a>
+          }
+        </div>
+      </div>
+      <button class="carrusel-secundario__boton carrusel-secundario__boton--anterior" (click)="embla?.scrollPrev()" aria-label="Anterior">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <button class="carrusel-secundario__boton carrusel-secundario__boton--siguiente" (click)="embla?.scrollNext()" aria-label="Siguiente">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+    </div>
+  </div>
+</section>

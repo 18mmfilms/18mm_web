@@ -1,0 +1,63 @@
+<section class="biografia">
+  <div class="contenedor-principal">
+    <h2 class="biografia__titulo">Sobre nosotros</h2>
+    <div class="biografia__interior">
+      <div class="biografia__imagen">
+        <img src="public/sobre-nosotros/sobre_nosotros.jpeg" alt="" class="biografia__placeholder" />
+      </div>
+      <div class="biografia__texto">
+        @if (!esMovil()) {
+        <p>Dos apasionados del arte audiovisual con una visión compartida: transformar
+          cada instante en un recuerdo inolvidable. Nuestra trayectoria se forja en la
+          dedicación y el compromiso con la calidad, la creatividad y la técnica,
+          elementos que nos permiten contar historias únicas a través de la fotografía y
+          el vídeo profesional.</p>
+        <p>Desde la espontaneidad de un evento hasta la meticulosidad de una sesión
+          de estudio, nuestro enfoque se centra en capturar la esencia de cada
+          momento, la emoción genuina y los detalles que hacen de cada proyecto algo
+          especial. Con una sólida experiencia en diversos campos, desde la televisión
+          hasta la cobertura de eventos.</p>
+
+        <p>
+          reemos firmemente que cada imagen y cada secuencia de vídeo deben
+          revivir esos sentimientos y emociones, para que perduren en el tiempo,
+          convirtiéndose en un valioso testimonio de vuestras historias. Nos
+          esforzamos por ofrecer un trato cercano y personalizado, asegurando que
+          cada cliente se sienta cómodo y que el resultado final supere sus
+          expectativas.
+        </p>
+
+        <p>
+          Descubre la magia de nuestras creaciones y la diversidad de nuestros
+          proyectos en nuestro Portafolio.
+        </p>
+
+        <div style="display: flex; flex-direction: row; gap: 1rem; align-items: center;">
+          <p>
+            ¡Te invitamos a explorar el mundo a través de nuestro objetivo!
+          </p>
+          <!-- <button src="" class="portafolio">PORTAFOLIO</button> -->
+        </div>
+
+        }
+
+
+        @if (esMovil()) {
+        <p>Dos apasionados del arte audiovisual con una visión compartida: transformar
+          cada instante en un recuerdo inolvidable. Nuestra trayectoria se forja en la
+          dedicación y el compromiso con la calidad, la creatividad y la técnica,
+          elementos que nos permiten contar historias únicas a través de la fotografía y
+          el vídeo profesional.</p>
+        <p>
+          Creemos firmemente que cada imagen y cada secuencia de vídeo deben
+          revivir esos sentimientos y emociones, para que perduren en el tiempo,
+          convirtiéndose en un valioso testimonio de vuestras historias. Nos
+          esforzamos por ofrecer un trato cercano y personalizado, asegurando que
+          cada cliente se sienta cómodo y que el resultado final supere sus
+          expectativas.
+        </p>
+        }
+      </div>
+    </div>
+  </div>
+</section>

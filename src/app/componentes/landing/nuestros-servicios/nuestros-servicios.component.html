@@ -1,0 +1,18 @@
+<section class="nuestros-servicios">
+  <div class="contenedor-principal">
+    <h2 class="nuestros-servicios__titulo">Nuestras Sesiones de Fotografía</h2>
+    <p style="text-align: center; margin-bottom: 2rem;">¿Qué tipo de reportaje estás buscando?</p>
+    <div class="eventos-grid" [class.eventos-grid--completos]="eventosCompletos()">
+      @for (evento of eventos; track evento.ruta) {
+      <a [routerLink]="['/eventos', evento.ruta]" class="evento-grid-item">
+        <img [src]="evento.imagen || 'public/no-imagen/no-imagen.jpg'" alt="" class="evento-grid-imagen" />
+        <p class="evento-grid-nombre">{{ evento.nombre }}</p>
+      </a>
+      }
+    </div>
+    <div class="nuestros-servicios__pie">
+      <button class="nuestros-servicios__boton" (click)="toggleCompletos()">{{ eventosCompletos() ? 'Ver menos' : 'Ver
+        más' }}</button>
+    </div>
+  </div>
+</section>

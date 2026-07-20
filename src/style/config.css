@@ -1,0 +1,43 @@
+:root {
+  /*  Fondo general de la web */
+  --color-fondo: #EAEAEC;
+
+  /*  Header - color de texto y tipografia */
+  --color-texto-header: #000;
+  --fuente-header: 'Alfa Slab One', serif;
+
+  /*  Textos generales y parrafos */
+  --color-texto: #000;
+  --fuente-parrafos: 'Bpmf Zihi Kai Std', sans-serif;
+
+  /*  Texto del carrusel principal (landing hero) */
+  --color-texto-carrusel-principal: #FFF;
+  --fuente-carrusel-principal: 'Bpmf Zihi Kai Std', sans-serif;
+
+  /*  Titulos - H1 */
+  --color-titulos: #FFF;
+  --fuente-titulos: 'Bpmf Zihi Kai Std', sans-serif;
+
+  /*  Subtitulos - H2 */
+  --color-subtitulos: #FFF;
+  --fuente-subtitulos: 'Alfa Slab One', serif;
+
+  /*  Apartados - H3 y H4 */
+  --color-apartados: #000;
+
+  /*  Texto de titulos en la zona de eventos de la landing (evento-grid-nombre) */
+  --color-evento-grid-nombre: #FFF;
+  --fuente-evento-grid-nombre: 'Bpmf Zihi Kai Std', sans-serif;
+
+  /*  Texto de elementos en la zona de "SERVICIOS QUE OFRECEMOS" */
+  --color-servicio-grid-nombre: #000;
+  --fuente-servicio-grid-nombre: 'DM Serif Display', serif;
+
+  /*  Botones (ver mas, enviar formulario, etc) */
+  --color-texto-botones: #FFF;
+  --color-bg-botones: #1a1a1a;
+
+  /*  Footer */
+  --color-texto-footer: #FFF;
+  --color-bg-footer: #1a1a1a;
+}
