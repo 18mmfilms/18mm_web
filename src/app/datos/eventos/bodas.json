@@ -1,6 +1,6 @@
 ﻿{
   "hero": {
-    "titulo": "Bodas",
+    "titulo": "BODAS",
     "imagen": "public/fotos-de-eventos/bodas/cabezera.png"
   },
   "bloques": [
@@ -10,10 +10,10 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "Vuestra boda dura un d\u00eda, pero los recuerdos deben durar toda la vida. Nuestra misi\u00f3n es entregaros un tesoro visual que pod\u00e1is compartir con vuestros seres queridos a\u00f1o tras a\u00f1o. No solo entregamos fotos y v\u00eddeos; entregamos la posibilidad de volver a sentir la emoci\u00f3n de vuestro \u2018s\u00ed, quiero\u2019 cada vez que puls\u00e9is al \u201cplay \u201do abr\u00e1is vuestro \u00e1lbum. Queremos acompa\u00f1aros en cada paso de este viaje. Por eso, adem\u00e1s del d\u00eda de la boda, incluimos opciones de preboda y posboda. La preboda es ideal para romper el hielo y perder el miedo a la c\u00e1mara, mientras que la posboda nos permite crear retratos m\u00e1gicos y relajados en localizaciones de ensue\u00f1o, completando as\u00ed el relato perfecto de vuestro amor.",
+      "contenido": "Vuestra boda dura un d\u00eda, pero los recuerdos deben durar toda la vida. Nuestra misi\u00f3n es entregaros un tesoro visual que pod\u00e1is compartir con vuestros seres queridos a\u00f1o tras a\u00f1o. No solo entregamos fotos y v\u00eddeos; entregamos la posibilidad de volver a sentir la emoci\u00f3n de vuestro \u2018s\u00ed, quiero’ cada vez que puls\u00e9is al \u201cplay \u201do abr\u00e1is vuestro \u00e1lbum. Queremos acompañaros en cada paso de este viaje. Por eso, adem\u00e1s del d\u00eda de la boda, incluimos opciones de preboda y posboda. La preboda es ideal para romper el hielo y perder el miedo a la c\u00e1mara, mientras que la posboda nos permite crear retratos m\u00e1gicos y relajados en localizaciones de ensue\u00f1o, completando as\u00ed el relato perfecto de vuestro amor.",
       "media": {
         "posicion": "derecha",
-        "imagen": "public/fotos-de-eventos/bodas/14.png"
+        "imagen": "public/fotos-de-eventos/bodas/fotoParrafo.jpg"
       }
     },
     {

@@ -3,32 +3,54 @@
     "titulo": "Embarazos",
     "imagen": "public/fotos-de-eventos/embarazos/cabezera.png"
   },
+
+
+
+
   "bloques": [
     {
       "tipo": "parrafo",
       "contenido": "La etapa del embarazo es un viaje extraordinario, un per\u00edodo de transformaci\u00f3n y un amor que crece d\u00eda a d\u00eda. En nuestro estudio, celebramos la dulce espera con sesiones fotogr\u00e1ficas llenas de ternura y elegancia, dise\u00f1adas para honrar la belleza de la maternidad y la conexi\u00f3n \u00fanica que se forma antes de la llegada del beb\u00e9. Nuestro objetivo es crear un recuerdo eterno de esta etapa tan especial, capturando la luz, la emoci\u00f3n y la serenidad que irradia cada futura mam\u00e1."
     },
+
+
+
     {
       "tipo": "parrafo",
       "contenido": "Entendemos la importancia de un ambiente \u00edntimo y relajado, donde te sientas c\u00f3moda y radiante. Cada sesi\u00f3n es una experiencia personalizada, cuidando cada detalle para que te sientas segura, hermosa y conectada con tu beb\u00e9. Nos dedicamos a resaltar la magia de este momento, creando im\u00e1genes que ser\u00e1n un recuerdo tesoro precioso para ti y tu familia.",
-      "media": {
+    
+ "media": {
         "posicion": "derecha",
         "imagen": "public/fotos-de-eventos/embarazos/1.png"
       }
-    },
+   
+},
+
+
+
+
     {
       "tipo": "separador",
       "estilo": "simple"
     },
+
+
+
     {
       "tipo": "titulo",
       "contenido": "Vuestra Elecci\u00f3n, Vuestro Recuerdo:"
     },
+
+
+
     {
       "tipo": "columnas-texto",
       "izquierda": "<strong>Sesiones en estudio:</strong><br>Intimidad y elegancia<br>Nuestro estudio ofrece un espacio sereno y controlado, ideal para capturar la belleza del embarazo con una iluminaci\u00f3n perfecta y un estilo \u00fanico. Aqu\u00ed podemos jugar con diferentes fondos, texturas y vestuarios que realcen tu figura y la dulzura de la espera. Es el escenario perfecto para fotograf\u00edas art\u00edsticas y delicadas, donde la intimidad y la elegancia son las protagonistas, creando un ambiente tranquilo donde puedas relajarte y disfrutar plenamente de la experiencia.",
       "derecha": "<strong>Sesiones en exteriores:</strong><br>La naturaleza como el escenario perfecto para quienes buscan una conexi\u00f3n profunda. Jardines o playas donde la luz natural y el entorno se unen para crear un ambiente relajado, ideal para capturar tu esencia de forma aut\u00e9ntica. La luz natural, los paisajes vibrantes y la inmensidad del entorno se convierten en el marco ideal para capturar la vitalidad y la esperanza de esta etapa. Imagina la brisa suave de la playa al atardecer, o la frescura de un jard\u00edn florecido, creando un escenario m\u00e1gico y org\u00e1nico para tus fotograf\u00edas de embarazo. Estas sesiones buscan la espontaneidad y la conexi\u00f3n con el entorno, resultando en im\u00e1genes llenas de vida y emoci\u00f3n."
     },
+
+
+
     {
       "tipo": "galeria",
       "imagenes": [
@@ -38,16 +60,44 @@
         "public/fotos-de-eventos/embarazos/5.png"
       ]
     },
+
+
+
     {
       "tipo": "parrafo",
       "contenido": "M\u00e1s que una imagen, cada fotograf\u00eda es un fragmento de vuestra historia; el primer testimonio visual de un amor que ya ha comenzado. Nuestra misi\u00f3n es capturar la esencia de esta dulce espera para entregaros un legado que vuestro hijo o hija podr\u00e1 descubrir ma\u00f1ana. No es solo una sesi\u00f3n, es el recuerdo eterno de donde todo empez\u00f3."
     },
+
+
+
     {
       "tipo": "galeria",
       "imagenes": [
         "public/fotos-de-eventos/embarazos/6.png",
         "public/fotos-de-eventos/embarazos/7.png"
       ]
+    },
+
+
+
+    { 
+      "tipo": "titulo",
+      "contenido": "Reseñas"
+    },
+
+
+    {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/embarazos/reseña.jpeg"
+      ]
     }
+
+
+
+
+
+
+
   ]
 }

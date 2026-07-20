@@ -72,11 +72,9 @@ EJEMPLO CORRECTO:
 [
     {
       [datos del evento1...]
-    },   <-- SI PONER COMMA EN EL ULTIMO
-     {
+    },   <-- SI PONER COMMA     {
       [datos del evento2...]
-    },   <-- SI PONER COMMA EN EL ULTIMO
-     {
+    },   <-- SI PONER COMMA     {
       [datos del evento3...]
     }    <-- NO PONER COMMA EN EL ULTIMO
 ]
