@@ -8,6 +8,37 @@
       "tipo": "parrafo",
       "contenido": "Capturamos la esencia de vuestro gran d\u00eda, desde los preparativos hasta la fiesta final. Nos encargamos de documentar cada sonrisa, cada l\u00e1grima de alegr\u00eda y cada detalle significativo, creando un recuerdo imborrable de vuestra historia de amor. Ofrecemos tanto fotograf\u00eda como v\u00eddeo, con opciones de edici\u00f3n din\u00e1mica para revivir los momentos m\u00e1s emotivos."
     },
+
+
+ { 
+      "tipo": "titulo",
+      "contenido": "PREPARATIVOS"
+    },
+
+
+"bloques": [
+    {
+      "tipo": "parrafo",
+      "contenido": Antes del "sí, quiero" hay un momento que muchas parejas pasan por alto y que, sin embargo, guarda algunas de las emociones más puras de todo el día: el instante en el que os vestís. Ese nerviosismo contenido, las manos de una madre abrochando el último botón, el padre ajustando la corbata a su
+hijo con los ojos vidriosos, las risas cómplices de las damas de honor mientras ayudan con el velo. Son minutos breves, pero cargados de una ternura que no se repite en ningún otro momento de la boda.
+
+Nos encanta llegar temprano y convertirnos en un invitado más, casi invisible, mientras la novia se coloca el vestido con ayuda de su madre o hermanas, y el novio comparte una última broma con sus padrinos antes de salir por la puerta. Cuidamos cada detalle: el vestido colgado esperando su momento, los gemelos, el ramo recién llegado, el perfume, los anillos. Pequeños objetos que, vistos después en el vídeo o en las fotos, cuentan tanto como la propia ceremonia.
+
+Porque no se trata solo de retrataros a vosotros, sino de retrataros rodeados de quienes más os quieren, en la última hora en la que sois "los novios" antes de convertiros en marido y mujer."
+    },
+
+ {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/bodas/1A.png",
+        "public/fotos-de-eventos/bodas/2A.png",
+        "public/fotos-de-eventos/bodas/3A.png",
+         "public/fotos-de-eventos/bodas/4A.png",
+        "public/fotos-de-eventos/bodas/5A.png",
+"public/fotos-de-eventos/bodas/6A.png",
+
+
+
     {
       "tipo": "parrafo",
       "contenido": "Vuestra boda dura un d\u00eda, pero los recuerdos deben durar toda la vida. Nuestra misi\u00f3n es entregaros un tesoro visual que pod\u00e1is compartir con vuestros seres queridos a\u00f1o tras a\u00f1o. No solo entregamos fotos y v\u00eddeos; entregamos la posibilidad de volver a sentir la emoci\u00f3n de vuestro \u2018s\u00ed, quiero’ cada vez que puls\u00e9is al \u201cplay \u201do abr\u00e1is vuestro \u00e1lbum. Queremos acompañaros en cada paso de este viaje. Por eso, adem\u00e1s del d\u00eda de la boda, incluimos opciones de preboda y posboda. La preboda es ideal para romper el hielo y perder el miedo a la c\u00e1mara, mientras que la posboda nos permite crear retratos m\u00e1gicos y relajados en localizaciones de ensue\u00f1o, completando as\u00ed el relato perfecto de vuestro amor.",
