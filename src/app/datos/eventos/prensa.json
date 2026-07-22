@@ -24,16 +24,16 @@
       "estilo": "simple"
     },
     {
+      "tipo": "subtitulo",
+      "nivel": "h3",
+      "contenido": "7TV ANDALUC\u00cdA"
+    },
+    {
       "tipo": "galeria",
       "imagenes": [
         "public/fotos-de-eventos/prensa/8.png",
         "public/fotos-de-eventos/prensa/9.png"
       ]
-    },
-    {
-      "tipo": "subtitulo",
-      "nivel": "h3",
-      "contenido": "7TV ANDALUC\u00cdA"
     },
     {
       "tipo": "parrafo",
@@ -43,8 +43,8 @@
       "tipo": "galeria",
       "imagenes": [
         "public/fotos-de-eventos/prensa/10.png",
-        "public/fotos-de-eventos/prensa/11.png",
-        "public/fotos-de-eventos/prensa/12.png"
+        "public/fotos-de-eventos/prensa/16.png",
+        "public/fotos-de-eventos/prensa/11.png"
       ]
     },
     {
@@ -56,32 +56,30 @@
       "estilo": "simple"
     },
     {
-      "tipo": "galeria",
-      "imagenes": [
-        "public/fotos-de-eventos/prensa/13.png",
-        "public/fotos-de-eventos/prensa/14.png"
-      ]
-    },
-    {
       "tipo": "subtitulo",
       "nivel": "h3",
       "contenido": "MEDIASET"
     },
     {
-      "tipo": "parrafo",
-      "contenido": "Tuve el privilegio de formar parte de los equipos de informativos de Cuatro y Telecinco. Esta experiencia me permiti\u00f3 trabajar en diversas localizaciones, cubriendo noticias tanto en Sevilla y sus alrededores como en otras ciudades clave de Andaluc\u00eda. Ha sido una etapa incre\u00edblemente enriquecedora, donde no solo he consolidado mis habilidades t\u00e9cnicas, sino que tambi\u00e9n he disfrutado enormemente del dinamismo y la exigencia del trabajo period\u00edstico."
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/prensa/12.png",
+        "public/fotos-de-eventos/prensa/13.png"
+      ]
     },
     {
       "tipo": "parrafo",
-      "contenido": "",
-      "media": {
-        "posicion": "",
-        "imagen": "public/fotos-de-eventos/prensa/14.png"
-      }
+      "contenido": "Tuve el privilegio de formar parte de los equipos de informativos de Cuatro y Telecinco. Esta experiencia me permiti\u00f3 trabajar en diversas localizaciones, cubriendo noticias tanto en Sevilla y sus alrededores como en otras ciudades clave de Andaluc\u00eda."
     },
     {
-      "tipo": "separador",
-      "estilo": "simple"
+      "tipo": "parrafo",
+      "contenido": "Ha sido una etapa incre\u00edblemente enriquecedora, donde no solo he consolidado mis habilidades t\u00e9cnicas, sino que tambi\u00e9n he disfrutado enormemente del dinamismo y la exigencia del trabajo period\u00edstico."
+    },
+    {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/prensa/14.png"
+      ]
     },
     {
       "tipo": "subtitulo",
