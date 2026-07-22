@@ -31,7 +31,7 @@
       "tipo": "parrafo",
       "contenido": "Vuestra boda dura un día, pero los recuerdos deben durar toda la vida. Nuestra misión es entregaros un tesoro visual que podáis compartir con vuestros seres queridos año tras año. No solo entregamos fotos y vídeos; entregamos la posibilidad de volver a sentir la emoción de vuestro 'sí, quiero' cada vez que pulséis al \"play\" o abráis vuestro álbum. Queremos acompañaros en cada paso de este viaje. Por eso, además del día de la boda, incluimos opciones de preboda y posboda. La preboda es ideal para romper el hielo y perder el miedo a la cámara, mientras que la posboda nos permite crear retratos mágicos y relajados en localizaciones de ensueño, completando así el relato perfecto de vuestro amor.",
       "media": {
-        "posicion": "derecha",
+        "posicion": "izquierda",
         "imagen": "public/fotos-de-eventos/bodas/video_dron.mp4"
       }
     },

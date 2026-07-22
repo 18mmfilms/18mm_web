@@ -1,8 +1,8 @@
 <div class="bloque-galeria">
   @for (item of imagenes; track $index) {
     @if (esVideo(item)) {
-      <div class="bloque-galeria__item">
-        <video class="bloque-galeria__imagen" controls preload="metadata" playsinline>
+      <div class="bloque-galeria__item bloque-galeria__item--video">
+        <video class="bloque-galeria__video" controls muted preload="metadata" playsinline>
           <source [src]="item" type="video/mp4" />
         </video>
       </div>

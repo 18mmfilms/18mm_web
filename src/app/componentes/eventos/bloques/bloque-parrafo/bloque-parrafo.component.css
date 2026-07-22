@@ -23,6 +23,15 @@
   max-height: 100%;
 }
 
+.bloque-parrafo-con-imagen__video {
+  width: 40%;
+  max-width: 100%;
+  max-height: 70vh;
+  flex-shrink: 0;
+  display: block;
+  object-fit: contain;
+}
+
 .bloque-parrafo-con-imagen__texto {
   width: 60%;
   text-align: justify;
@@ -42,6 +51,11 @@
 
   .bloque-parrafo-con-imagen__imagen {
     width: 100%;
+  }
+
+  .bloque-parrafo-con-imagen__video {
+    width: 100%;
+    max-height: none;
   }
 
   .bloque-parrafo-con-imagen__texto {

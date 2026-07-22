@@ -1,7 +1,7 @@
 @if (bloque?.media?.imagen) {
   <div class="bloque-parrafo-con-imagen" [class.bloque-parrafo-con-imagen--invertido]="posicionInvertida">
     @if (esVideo(bloque?.media?.imagen)) {
-      <video class="bloque-parrafo-con-imagen__imagen" autoplay muted loop playsinline>
+      <video class="bloque-parrafo-con-imagen__video" autoplay muted loop playsinline controls>
         <source [src]="bloque?.media?.imagen" type="video/mp4" />
       </video>
     } @else {

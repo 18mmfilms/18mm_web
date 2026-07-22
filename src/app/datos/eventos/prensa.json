@@ -43,7 +43,7 @@
       "tipo": "galeria",
       "imagenes": [
         "public/fotos-de-eventos/prensa/10.png",
-        "public/fotos-de-eventos/prensa/16.png",
+        "public/fotos-de-eventos/prensa/15.png",
         "public/fotos-de-eventos/prensa/11.png"
       ]
     },
@@ -78,7 +78,7 @@
     {
       "tipo": "galeria",
       "imagenes": [
-        "public/fotos-de-eventos/prensa/14.png"
+        "public/fotos-de-eventos/prensa/13.png"
       ]
     }
   ]
