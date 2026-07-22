@@ -16,6 +16,7 @@ import { BloqueTextosConImagenComponent } from '../../componentes/eventos/bloque
 import { BloqueLateralComponent } from '../../componentes/eventos/bloques/bloque-lateral/bloque-lateral.component';
 import { BloqueFotoComponent } from '../../componentes/eventos/bloques/bloque-foto/bloque-foto.component';
 import { BloqueListaComponent } from '../../componentes/eventos/bloques/bloque-lista/bloque-lista.component';
+import { WhatsappStickyComponent } from '../../componentes/globales/whatsapp-sticky/whatsapp-sticky.component';
 import eventos from '../../datos/eventos.json';
 
 @Component({
@@ -36,7 +37,8 @@ import eventos from '../../datos/eventos.json';
     BloqueTextosConImagenComponent,
     BloqueLateralComponent,
     BloqueFotoComponent,
-    BloqueListaComponent
+    BloqueListaComponent,
+    WhatsappStickyComponent
   ],
   templateUrl: './evento.component.html',
   styleUrl: './evento.component.css'

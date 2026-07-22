@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "titulo": "PREMIOS",
+    "imagen": "public/fotos-de-eventos/premios/cabezera.png"
+  },
+  "bloques": [
+    {
+      "tipo": "lateral",
+      "imagenes": [
+        "public/fotos-de-eventos/prensa/15.png"
+      ],
+      "contenidos": [
+        "Me complace compartir que he sido galardonada con el primer premio en el concurso de carteles <strong>'Velá de Pino Montano 2024'</strong>.",
+        "Este logro representa no solo un reconocimiento a mi trabajo, sino tambiéna la pasión y dedicación que pongo en cada proyecto.",
+        "Estoy agradecida por la oportunidad de haber podido aportar mi visión aesta importante tradición y espero que mi cartel sea una ventana visual que capture la esencia de esta celebración."
+      ]
+    }
+  ]
+}

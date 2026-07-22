@@ -1,12 +1,12 @@
-﻿{
+{
   "hero": {
-    "titulo": "Festivales",
+    "titulo": "FESTIVALES",
     "imagen": "public/fotos-de-eventos/festivales/cabezera.png"
   },
   "bloques": [
     {
       "tipo": "parrafo",
-      "contenido": "En el vibrante universo del cine y la producci\u00f3n audiovisual, cada historia contada es una oportunidad para emocionar, reflexionar y conectar. En nuestro equipo, nos apasiona el arte de la narrativa visual y sonora, y hemos consolidado una s\u00f3lida trayectoria en el \u00e1mbito de los cortometrajes y la producci\u00f3n audiovisual, participando activamente en festivales y colaborando con diversas productoras para dar vida a proyectos innovadores y de gran impacto."
+      "contenido": "En el vibrante universo del cine y la producción audiovisual, cada historia contada es una oportunidad para emocionar, reflexionar y conectar. En nuestro equipo, nos apasiona el arte de la narrativa visual y sonora, y hemos consolidado una sólida trayectoria en el ámbito de los cortometrajes y la producción audiovisual, participando activamente en festivales y colaborando con diversas productoras para dar vida a proyectos innovadores y de gran impacto."
     },
     {
       "tipo": "galeria",
@@ -17,7 +17,7 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "Nuestra experiencia abarca roles fundamentales en la creaci\u00f3n cinematogr\u00e1fica, desde la concepci\u00f3n de la idea hasta su materializaci\u00f3n en pantalla. Nos desempe\u00f1amos con maestr\u00eda como operadores de c\u00e1mara, capturando cada encuadre con precisi\u00f3n y sensibilidad art\u00edstica; como directores, guiando la visi\u00f3n creativa y el talento del equipo hacia un objetivo com\u00fan; y como guionistas, tejiendo tramas que resuenan con el p\u00fablico y dejan una huella duradera. Esta versatilidad nos permite comprender el proceso creativo en su totalidad y aportar una perspectiva integral a cada producci\u00f3n."
+      "contenido": "Nuestra experiencia abarca roles fundamentales en la creación cinematográfica, desde la concepción de la idea hasta su materialización en pantalla. Nos desempeñamos con maestría como operadores de cámara, capturando cada encuadre con precisión y sensibilidad artística; como directores, guiando la visión creativa y el talento del equipo hacia un objetivo común; y como guionistas, tejiendo tramas que resuenan con el público y dejan una huella duradera. Esta versatilidad nos permite comprender el proceso creativo en su totalidad y aportar una perspectiva integral a cada producción."
     },
     {
       "tipo": "galeria",
@@ -29,11 +29,11 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "Creemos firmemente en el poder de la colaboraci\u00f3n. A lo largo de nuestra trayectoria, hemos tenido el privilegio de trabajar codo con codo con otras productoras, sumando talentos y visiones para alcanzar resultados excepcionales. Estas sinergias no solo han enriquecido nuestra experiencia, sino que tambi\u00e9n han sido la clave para el \u00e9xito de proyectos que han sido reconocidos en importantes cert\u00e1menes."
+      "contenido": "Creemos firmemente en el poder de la colaboración. A lo largo de nuestra trayectoria, hemos tenido el privilegio de trabajar codo con codo con otras productoras, sumando talentos y visiones para alcanzar resultados excepcionales. Estas sinergias no solo han enriquecido nuestra experiencia, sino que también han sido la clave para el éxito de proyectos que han sido reconocidos en importantes certámenes."
     },
     {
       "tipo": "parrafo",
-      "contenido": "Nos enorgullece especialmente haber sido galardonados en diversos festivales de cortometrajes, un testimonio del impacto y la calidad de nuestro trabajo. Entre los reconocimientos m\u00e1s significativos, destacamos:"
+      "contenido": "Nos enorgullece especialmente haber sido galardonados en diversos festivales de cortometrajes, un testimonio del impacto y la calidad de nuestro trabajo. Entre los reconocimientos más significativos, destacamos:"
     },
     {
       "tipo": "lateral",
@@ -42,18 +42,18 @@
         "public/fotos-de-eventos/festivales/7.png"
       ],
       "contenidos": [
-        "<strong>Mejor Corto por Votaci\u00f3n del P\u00fablico:</strong> Este premio es un reflejo directo de nuestra capacidad para conectar con la audiencia, creando historias que resuenan y generan una respuesta emocional genuina. La conexi\u00f3n con el espectador es, para nosotros, la m\u00e1xima recompensa.",
-        "<strong>Mejor Producci\u00f3n:</strong> Este galard\u00f3n subraya nuestra excelencia en la gesti\u00f3n y ejecuci\u00f3n de proyectos audiovisuales, desde la planificaci\u00f3n y el rodaje hasta la postproducci\u00f3n. Es un reconocimiento a la meticulosidad, la eficiencia y la calidad t\u00e9cnica que imprimimos en cada fase del proceso.",
-        "<strong>Mejor Corto Campus Loyola:</strong> Este premio espec\u00edfico destaca nuestra capacidad para innovar y sobresalir en entornos acad\u00e9micos y creativos, demostrando un talento emergente y una visi\u00f3n fresca en el panorama del cortometraje."
+        "<strong>Mejor Corto por Votación del Público:</strong> Este premio es un reflejo directo de nuestra capacidad para conectar con la audiencia, creando historias que resuenan y generan una respuesta emocional genuina. La conexión con el espectador es, para nosotros, la máxima recompensa.",
+        "<strong>Mejor Producción:</strong> Este galardón subraya nuestra excelencia en la gestión y ejecución de proyectos audiovisuales, desde la planificación y el rodaje hasta la postproducción. Es un reconocimiento a la meticulosidad, la eficiencia y la calidad técnica que imprimimos en cada fase del proceso.",
+        "<strong>Mejor Corto Campus Loyola:</strong> Este premio específico destaca nuestra capacidad para innovar y sobresalir en entornos académicos y creativos, demostrando un talento emergente y una visión fresca en el panorama del cortometraje."
       ]
     },
     {
       "tipo": "parrafo",
-      "contenido": "Si busc\u00e1is un equipo con acreditada experiencia en el mundo del cortometraje, con una visi\u00f3n art\u00edstica s\u00f3lida y la solvencia t\u00e9cnica para llevar vuestras ideas a la pantalla, somos vuestro aliado ideal. Ya sea para dar vida a un guion, dirigir el proyecto, ponernos tras la c\u00e1mara o impulsar la producci\u00f3n de vuestro pr\u00f3ximo \u00e9xito, estamos listos para aportar nuestra pasi\u00f3n y experiencia."
+      "contenido": "Si buscáis un equipo con acreditada experiencia en el mundo del cortometraje, con una visión artística sólida y la solvencia técnica para llevar vuestras ideas a la pantalla, somos vuestro aliado ideal. Ya sea para dar vida a un guion, dirigir el proyecto, ponernos tras la cámara o impulsar la producción de vuestro próximo éxito, estamos listos para aportar nuestra pasión y experiencia."
     },
     {
       "tipo": "parrafo",
-      "contenido": "Contactad con nosotros para explorar c\u00f3mo colaborar y transformar vuestras ideas en historias que no solo se vean, sino que se sientan y se recuerden."
+      "contenido": "Contactad con nosotros para explorar cómo colaborar y transformar vuestras ideas en historias que no solo se vean, sino que se sientan y se recuerden."
     },
     {
       "tipo": "foto",

@@ -1,7 +1,7 @@
-﻿[
+[
   {
     "id": 1,
-    "nombre": "Bodas",
+    "nombre": "BODAS",
     "ruta": "bodas",
     "archivo": "bodas.json",
     "heroImagen": "public/no-imagen/no-imagen.jpg",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "nombre": "Despedidas",
+    "nombre": "DESPEDIDAS",
     "ruta": "despedidas",
     "archivo": "despedidas.json",
     "heroImagen": "public/eventos/despedidas.jpg",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "nombre": "Parejas",
+    "nombre": "PAREJAS",
     "ruta": "parejas",
     "archivo": "parejas.json",
     "heroImagen": "public/eventos/parejas.jpeg",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "nombre": "Embarazos",
+    "nombre": "EMBARAZOS",
     "ruta": "embarazos",
     "archivo": "embarazos.json",
     "heroImagen": "public/eventos/embarazos.jpg",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "nombre": "Familias y Niños",
+    "nombre": "FAMILIAS Y NIÑOS",
     "ruta": "familias",
     "archivo": "familias.json",
     "heroImagen": "public/eventos/familias.jpg",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "nombre": "Estudio",
+    "nombre": "ESTUDIO",
     "ruta": "estudio",
     "archivo": "estudio.json",
     "heroImagen": "public/eventos/estudio.jpg",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "nombre": "Conciertos",
+    "nombre": "CONCIERTOS",
     "ruta": "conciertos",
     "archivo": "conciertos.json",
     "heroImagen": "public/eventos/conciertos.jpg",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "nombre": "Festivales",
+    "nombre": "FESTIVALES",
     "ruta": "festivales",
     "archivo": "festivales.json",
     "heroImagen": "public/eventos/festivales.jpeg",
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "nombre": "Bautizos / Comuniones",
+    "nombre": "BAUTIZOS / COMUNIONES",
     "ruta": "bautizos-comuniones",
     "archivo": "bautizos-comuniones.json",
     "heroImagen": "public/eventos/bautizos.jpg",
@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "nombre": "Colaboraciones",
+    "nombre": "COLABORACIONES",
     "ruta": "colaboraciones",
     "archivo": "colaboraciones.json",
     "heroImagen": "public/eventos/colaboraciones.jpeg",
@@ -81,10 +81,18 @@
   },
   {
     "id": 11,
-    "nombre": "Prensa",
+    "nombre": "PRENSA",
     "ruta": "prensa",
     "archivo": "prensa.json",
     "heroImagen": "public/eventos/prensa.jpeg",
     "imagen": "public/eventos/prensa.jpeg"
+  },
+  {
+    "id": 12,
+    "nombre": "PREMIOS",
+    "ruta": "premios",
+    "archivo": "premios.json",
+    "heroImagen": "public/fotos-de-eventos/prensa/cabezera.png",
+    "imagen": "public/fotos-de-eventos/prensa/cabezera.png"
   }
 ]

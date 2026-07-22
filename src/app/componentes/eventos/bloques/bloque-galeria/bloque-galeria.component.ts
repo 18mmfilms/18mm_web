@@ -13,7 +13,13 @@ export class BloqueGaleriaComponent {
 
   constructor(private lightbox: LightboxService) {}
 
+  esVideo(ruta: string): boolean {
+    return ruta?.toLowerCase().endsWith('.mp4');
+  }
+
   abrirLightbox(index: number): void {
-    this.lightbox.open(this.imagenes, index);
+    const soloImagenes = this.imagenes.filter(i => !this.esVideo(i));
+    const imgIndex = this.imagenes.slice(0, index).filter(i => !this.esVideo(i)).length;
+    this.lightbox.open(soloImagenes, imgIndex);
   }
 }

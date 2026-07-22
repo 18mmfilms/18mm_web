@@ -1,7 +1,93 @@
 ================================================================================
-                          TUTORIAL BASICO DEL PROYECTO
-                       Como editar colores, textos e imagenes
+                           TUTORIAL BASICO DEL PROYECTO
+                        Como editar colores, textos e imagenes
 ================================================================================
+
+
+====================  0. IMPORTANTE ANTES DE MODIFICAR NINGUN DOCUMENTO  ====================
+
+
+Este apartado es para personas que no tienen conocimientos de programacion.
+Aqui explicamos las normas basicas para escribir y modificar los archivos JSON
+del proyecto sin romper nada.
+
+
+--- 0.1. Las comillas simples de los valores ---
+
+Cada valor de texto debe comenzar y terminar usando comillas dobles (").
+
+Ejemplo correcto:
+  "contenido": "Este es un texto"
+
+No se deben utilizar comillas dobles dentro del propio texto si pueden cerrar
+accidentalmente el valor antes de tiempo.
+
+Ejemplo INCORRECTO (esto rompe el archivo):
+  "contenido": "Este texto contiene "comillas" y puede romper el objeto"
+
+Si necesitas poner comillas dentro del texto, usa comillas simples ('') o el
+codigo \", que es una forma segura de escribir comillas sin romper nada.
+
+Forma segura:
+  "contenido": "Este texto contiene \"comillas\" y no rompe el objeto"
+
+
+--- 0.2. Que es un objeto ---
+
+Un objeto es un conjunto de informacion agrupada entre llaves { }.
+
+Ejemplo:
+  {
+    "tipo": "parrafo",
+    "contenido": "Este es un texto"
+  }
+
+- Las llaves { } contienen un objeto.
+- Cada linea tiene un nombre (como "tipo") y un valor (como "parrafo").
+- El nombre y el valor se separan mediante dos puntos : .
+- Los diferentes elementos se separan mediante comas.
+
+
+--- 0.3. El uso de las comas ---
+
+Cuando hay varios objetos dentro de una lista (entre corchetes [ ]), todos
+deben llevar una coma despues del cierre, excepto el ultimo.
+
+Ejemplo correcto:
+  [
+    {
+      "tipo": "titulo",
+      "contenido": "Primer elemento"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": "Ultimo elemento"
+    }
+  ]
+
+Regla facil:
+- El primer objeto lleva coma porque despues hay otro.
+- El ultimo objeto NO lleva coma porque no hay nada despues.
+
+Si pones una coma donde no debe o te olvidas de una, el archivo JSON dejara
+de funcionar y la web no cargara correctamente.
+
+
+--- 0.4. Mantener siempre la estructura existente ---
+
+Antes de modificar un documento, observa como estan escritos los objetos que
+ya existen y respeta siempre esa misma estructura.
+
+Por ejemplo, si ves que todos los eventos tienen estos campos:
+  {
+    "id": 1,
+    "nombre": "Bodas",
+    "ruta": "bodas",
+    "archivo": "bodas.json",
+    "heroImagen": "public/..."
+  }
+
+Cuando anadas uno nuevo, debe tener los mismos campos en el mismo orden.
 
 
 ====================  1. ARCHIVOS IMPORTANTES  ====================

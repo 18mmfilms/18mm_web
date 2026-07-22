@@ -27,7 +27,7 @@
 
 .hero__titulo {
   color: var(--color-titulos);
-  font-size: 3rem;
+  font-size: 3.8rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);

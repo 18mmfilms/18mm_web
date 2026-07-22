@@ -13,4 +13,8 @@ export class BloqueParrafoComponent {
   get posicionInvertida(): boolean {
     return this.bloque?.media?.posicion === 'derecha';
   }
+
+  esVideo(ruta: string): boolean {
+    return ruta?.toLowerCase().endsWith('.mp4');
+  }
 }

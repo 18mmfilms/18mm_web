@@ -1,16 +1,16 @@
-﻿{
+{
   "hero": {
-    "titulo": "Parejas",
+    "titulo": "PAREJAS",
     "imagen": "public/fotos-de-eventos/parejas/cabezera.png"
   },
   "bloques": [
     {
       "tipo": "parrafo",
-      "contenido": "Creemos que cada historia de amor es \u00fanica y merece ser contada con la misma pasi\u00f3n y autenticidad con la que la viv\u00eds. Ya sea una preboda llena de nervios y anticipaci\u00f3n, una postboda que prolonga la magia del gran d\u00eda, o simplemente una sesi\u00f3n de pareja para celebrar vuestro amor en cualquier momento, estamos aqu\u00ed para inmortalizar esa conexi\u00f3n especial que os une."
+      "contenido": "Creemos que cada historia de amor es única y merece ser contada con la misma pasión y autenticidad con la que la vivís. Ya sea una preboda llena de nervios y anticipación, una postboda que prolonga la magia del gran día, o simplemente una sesión de pareja para celebrar vuestro amor en cualquier momento, estamos aquí para inmortalizar esa conexión especial que os une."
     },
     {
       "tipo": "parrafo",
-      "contenido": "Nuestro enfoque es capturar la esencia de vuestra relaci\u00f3n: las miradas c\u00f3mplices, las risas espont\u00e1neas, los abrazos que lo dicen todo y esos peque\u00f1os gestos que solo vosotros entend\u00e9is. Buscamos crear un ambiente \u00edntimo y relajado donde pod\u00e1is ser vosotros mismos, olvidando las c\u00e1maras y simplemente disfrutando el uno del otro. Nos encanta la fotograf\u00eda documental, que narra vuestra historia sin artificios, combinada con tomas art\u00edsticas y cinematogr\u00e1ficas que realzan la belleza de vuestro v\u00ednculo.",
+      "contenido": "Nuestro enfoque es capturar la esencia de vuestra relación: las miradas cómplices, las risas espontáneas, los abrazos que lo dicen todo y esos pequeños gestos que solo vosotros entendéis. Buscamos crear un ambiente íntimo y relajado donde podáis ser vosotros mismos, olvidando las cámaras y simplemente disfrutando el uno del otro. Nos encanta la fotografía documental, que narra vuestra historia sin artificios, combinada con tomas artísticas y cinematográficas que realzan la belleza de vuestro vínculo.",
       "media": {
         "posicion": "izquierda",
     "imagen": "public/fotos-de-eventos/parejas/1.png"
@@ -26,7 +26,7 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "Desde un paseo por vuestro lugar favorito, una tarde de aventura en la naturaleza, o un momento tranquilo en casa, nos adaptamos a vuestro estilo y personalidad para dise\u00f1ar una sesi\u00f3n que refleje fielmente qui\u00e9nes sois como pareja. No es solo una sesi\u00f3n de fotos; es una experiencia compartida que se convierte en un recuerdo tangible de vuestro amor, un tesoro que perdurar\u00e1 a trav\u00e9s del tiempo."
+      "contenido": "Desde un paseo por vuestro lugar favorito, una tarde de aventura en la naturaleza, o un momento tranquilo en casa, nos adaptamos a vuestro estilo y personalidad para diseñar una sesión que refleje fielmente quiénes sois como pareja. No es solo una sesión de fotos; es una experiencia compartida que se convierte en un recuerdo tangible de vuestro amor, un tesoro que perdurará a través del tiempo."
     }
   ]
 }

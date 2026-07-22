@@ -1,12 +1,12 @@
-﻿{
+{
   "hero": {
-    "titulo": "Colaboraciones",
+    "titulo": "COLABORACIONES",
     "imagen": "public/fotos-de-eventos/colaboraciones/cabezera.png"
   },
   "bloques": [
     {
       "tipo": "parrafo",
-      "contenido": "En 18mm Films entendemos que la excelencia nace del intercambio y la sinergia. Nuestro compromiso con la narrativa visual nos impulsa a tejer alianzas estrat\u00e9gicas con profesionales y entidades que comparten nuestra pasi\u00f3n por crear experiencias memorables. Cada proyecto conjunto es una oportunidad para expandir nuestros horizontes creativos y consolidar una red de valor que beneficia a todos. As\u00ed es como colaboramos:"
+      "contenido": "En 18mm Films entendemos que la excelencia nace del intercambio y la sinergia. Nuestro compromiso con la narrativa visual nos impulsa a tejer alianzas estratégicas con profesionales y entidades que comparten nuestra pasión por crear experiencias memorables. Cada proyecto conjunto es una oportunidad para expandir nuestros horizontes creativos y consolidar una red de valor que beneficia a todos. Así es como colaboramos:"
     },
     {
       "tipo": "subtitulo",
@@ -16,17 +16,17 @@
     {
       "tipo": "subtitulo",
       "nivel": "h3",
-      "contenido": "<strong>Acci\u00f3n y Team Building:</strong> Capturamos la adrenalina, el compa\u00f1erismo y la diversi\u00f3n en las gymkanas y capeas de Eclipse."
+      "contenido": "<strong>Acción y Team Building:</strong> Capturamos la adrenalina, el compañerismo y la diversión en las gymkanas y capeas de Eclipse."
     },
     {
       "tipo": "subtitulo",
       "nivel": "h3",
-      "contenido": "<strong>Grandes Eventos y Festivales:</strong> Nos sumergimos en la vibrante atm\u00f3sfera de los festivales m\u00e1s importantes de Madrid."
+      "contenido": "<strong>Grandes Eventos y Festivales:</strong> Nos sumergimos en la vibrante atmósfera de los festivales más importantes de Madrid."
     },
     {
       "tipo": "subtitulo",
       "nivel": "h3",
-      "contenido": "<strong>Corporativo e Innovaci\u00f3n:</strong> Cubrimos eventos clave de emprendimiento en Andaluc\u00eda mano a mano con Gobo Audiovisuales."
+      "contenido": "<strong>Corporativo e Innovación:</strong> Cubrimos eventos clave de emprendimiento en Andalucía mano a mano con Gobo Audiovisuales."
     },
     {
       "tipo": "separador",
@@ -35,15 +35,15 @@
     {
       "tipo": "subtitulo",
       "nivel": "h3",
-      "contenido": "<strong>Festival de Cine de Madrid:</strong> Detr\u00e1s de la Gran Pantalla."
+      "contenido": "<strong>Festival de Cine de Madrid:</strong> Detrás de la Gran Pantalla."
     },
     {
       "tipo": "parrafo",
-      "contenido": "Durante la semana del Festival de Cine de Madrid, en 18mm Films tuvimos el privilegio de sumergirnos en el coraz\u00f3n del evento para realizar una cobertura audiovisual completa. Nuestro objetivo: capturar la esencia, el talento y la energ\u00eda que se respira a ambos lados de la pantalla. A trav\u00e9s de fotograf\u00eda y v\u00eddeo de alta producci\u00f3n, dimos cobertura a los hitos clave del festival:"
+      "contenido": "Durante la semana del Festival de Cine de Madrid, en 18mm Films tuvimos el privilegio de sumergirnos en el corazón del evento para realizar una cobertura audiovisual completa. Nuestro objetivo: capturar la esencia, el talento y la energía que se respira a ambos lados de la pantalla. A través de fotografía y vídeo de alta producción, dimos cobertura a los hitos clave del festival:"
     },
     {
       "tipo": "parrafo",
-      "contenido": "- Glow & Glamour: La expectaci\u00f3n y el brillo de los photocalls.<br>- Industria: El pulso de los pitchings y el nacimiento de proyectos en las sesiones de networking.<br>- Cultura: Presentaciones de libros y encuentros con creadores.<br>- El Gran Cierre: La emoci\u00f3n y el prestigio de la gran gala de premios."
+      "contenido": "- Glow & Glamour: La expectación y el brillo de los photocalls.<br>- Industria: El pulso de los pitchings y el nacimiento de proyectos en las sesiones de networking.<br>- Cultura: Presentaciones de libros y encuentros con creadores.<br>- El Gran Cierre: La emoción y el prestigio de la gran gala de premios."
     },
     {
       "tipo": "galeria",
@@ -63,11 +63,11 @@
     {
       "tipo": "subtitulo",
       "nivel": "h3",
-      "contenido": "<strong>Ateneo de Sevilla:</strong> Cultura, Charlas y Espect\u00e1culos"
+      "contenido": "<strong>Ateneo de Sevilla:</strong> Cultura, Charlas y Espectáculos"
     },
     {
       "tipo": "parrafo",
-      "contenido": "En 18mm Films hemos tenido el honor de colaborar con el prestigioso Ateneo de Sevilla, documentando su valioso legado y su constante actividad cultural. A trav\u00e9s de una cobertura audiovisual minuciosa y respetuosa, nos encargamos de registrar diversas charlas, conferencias y espect\u00e1culos. Nuestro foco estuvo en capturar tanto la fluidez de los ponentes como la conexi\u00f3n con el p\u00fablico, inmortalizando la pasi\u00f3n por el conocimiento y el arte que define a esta emblem\u00e1tica instituci\u00f3n sevillana."
+      "contenido": "En 18mm Films hemos tenido el honor de colaborar con el prestigioso Ateneo de Sevilla, documentando su valioso legado y su constante actividad cultural. A través de una cobertura audiovisual minuciosa y respetuosa, nos encargamos de registrar diversas charlas, conferencias y espectáculos. Nuestro foco estuvo en capturar tanto la fluidez de los ponentes como la conexión con el público, inmortalizando la pasión por el conocimiento y el arte que define a esta emblemática institución sevillana."
     },
     {
       "tipo": "galeria",
@@ -88,7 +88,7 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "En 18mm Films nos sumergimos en el coraz\u00f3n de la acci\u00f3n. Documentamos el dinamismo de cada prueba, las reacciones m\u00e1s espont\u00e1neas y las emociones genuinas de los participantes en tiempo real. Capturamos la risa, el esfuerzo y la euforia de superar desaf\u00edos juntos, transformando cada instante en un recuerdo vibrante que refleja la energ\u00eda contagiosa de la aventura. Si se vive al l\u00edmite, lo atrapamos con la c\u00e1mara."
+      "contenido": "En 18mm Films nos sumergimos en el corazón de la acción. Documentamos el dinamismo de cada prueba, las reacciones más espontáneas y las emociones genuinas de los participantes en tiempo real. Capturamos la risa, el esfuerzo y la euforia de superar desafíos juntos, transformando cada instante en un recuerdo vibrante que refleja la energía contagiosa de la aventura. Si se vive al límite, lo atrapamos con la cámara."
     },
     {
       "tipo": "galeria",
@@ -105,11 +105,11 @@
     {
       "tipo": "subtitulo",
       "nivel": "h3",
-      "contenido": "<strong>Capeas:</strong> La Emoci\u00f3n de la Fiesta Tradicional"
+      "contenido": "<strong>Capeas:</strong> La Emoción de la Fiesta Tradicional"
     },
     {
       "tipo": "parrafo",
-      "contenido": "Capturar una capea requiere estar en el lugar id\u00f3neo en el momento justo. Nos encargamos de la cobertura completa (fotograf\u00eda, grabaci\u00f3n y edici\u00f3n) enfoc\u00e1ndonos en lo que de verdad importa:<br>- La Acci\u00f3n: Los quiebros, las carreras y la valent\u00eda en la arena.<br>- El Ambiente: Las risas compartidas, la m\u00fasica y la euforia del p\u00fablico.<br>- El Recuerdo: Un v\u00eddeo din\u00e1mico que vuestro grupo querr\u00e1 ver en bucle."
+      "contenido": "Capturar una capea requiere estar en el lugar idóneo en el momento justo. Nos encargamos de la cobertura completa (fotografía, grabación y edición) enfocándonos en lo que de verdad importa:<br>- La Acción: Los quiebros, las carreras y la valentía en la arena.<br>- El Ambiente: Las risas compartidas, la música y la euforia del público.<br>- El Recuerdo: Un vídeo dinámico que vuestro grupo querrá ver en bucle."
     },
     {
       "tipo": "galeria",
@@ -129,7 +129,7 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "En 18mm Films hemos tenido el privilegio de firmar la cobertura audiovisual integral de Al-Andalus Innovation Venture, el evento de referencia para la inversi\u00f3n, la innovaci\u00f3n y el ecosistema startup en Andaluc\u00eda. Un despliegue de esta envergadura requiri\u00f3 de nuestra m\u00e1xima precisi\u00f3n t\u00e9cnica, agilidad y coordinaci\u00f3n para capturar cada hito del encuentro: Ponencias y Mesas Redondas: Fotograf\u00eda y v\u00eddeo de alta calidad de los l\u00edderes del sector. Zona de Networking: Captura de sinergias, reuniones one-to-one y conexiones estrat\u00e9gicas. Keynotes y Pitches: Inmortalizaci\u00f3n del talento emergente presentando sus proyectos al futuro.",
+      "contenido": "En 18mm Films hemos tenido el privilegio de firmar la cobertura audiovisual integral de Al-Andalus Innovation Venture, el evento de referencia para la inversión, la innovación y el ecosistema startup en Andalucía. Un despliegue de esta envergadura requirió de nuestra máxima precisión técnica, agilidad y coordinación para capturar cada hito del encuentro: Ponencias y Mesas Redondas: Fotografía y vídeo de alta calidad de los líderes del sector. Zona de Networking: Captura de sinergias, reuniones one-to-one y conexiones estratégicas. Keynotes y Pitches: Inmortalización del talento emergente presentando sus proyectos al futuro.",
       "media": {
         "posicion": "",
         "imagen": "public/fotos-de-eventos/colaboraciones/15.png"
@@ -142,11 +142,11 @@
     {
       "tipo": "subtitulo",
       "nivel": "h3",
-      "contenido": "<strong>Parque Warner Madrid:</strong> La Primera Impresi\u00f3n"
+      "contenido": "<strong>Parque Warner Madrid:</strong> La Primera Impresión"
     },
     {
       "tipo": "parrafo",
-      "contenido": "Capturamos la esencia de la bienvenida al universo Warner, documentando la llegada de los visitantes y la ic\u00f3nica entrada al parque. A trav\u00e9s de nuestra fotograf\u00eda, inmortalizamos ese primer instante de ilusi\u00f3n y la majestuosidad de la arquitectura que da paso a un mundo de cine y superh\u00e9roes."
+      "contenido": "Capturamos la esencia de la bienvenida al universo Warner, documentando la llegada de los visitantes y la icónica entrada al parque. A través de nuestra fotografía, inmortalizamos ese primer instante de ilusión y la majestuosidad de la arquitectura que da paso a un mundo de cine y superhéroes."
     },
     {
       "tipo": "galeria",

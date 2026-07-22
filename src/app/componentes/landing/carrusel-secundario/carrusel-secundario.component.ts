@@ -14,21 +14,21 @@ export class CarruselSecundarioComponent implements AfterViewInit, OnDestroy {
   embla: ReturnType<typeof EmblaCarousel> | null = null;
 
   imagenes = [
-    { src: 'public/carrusel-secundario/1.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/2.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/3.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/4.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/5.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/6.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/7.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/8.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/9.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/10.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/11.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/12.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/13.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/14.png', alt: 'Galer\u00eda 18MM Films' },
-    { src: 'public/carrusel-secundario/15.png', alt: 'Galer\u00eda 18MM Films' }
+    { src: 'public/carrusel-secundario/1.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/2.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/3.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/4.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/5.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/6.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/7.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/8.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/9.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/10.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/11.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/12.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/13.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/14.png', alt: 'Galería 18MM Films' },
+    { src: 'public/carrusel-secundario/15.png', alt: 'Galería 18MM Films' }
   ];
 
   constructor(private lightbox: LightboxService) {}

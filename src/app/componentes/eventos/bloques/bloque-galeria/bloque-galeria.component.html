@@ -1,7 +1,15 @@
 <div class="bloque-galeria">
-  @for (img of imagenes; track $index) {
-    <a class="bloque-galeria__item" (click)="$event.preventDefault(); abrirLightbox($index)">
-      <img [src]="img" [alt]="'Imagen ' + ($index + 1)" class="bloque-galeria__imagen" loading="lazy" />
-    </a>
+  @for (item of imagenes; track $index) {
+    @if (esVideo(item)) {
+      <div class="bloque-galeria__item">
+        <video class="bloque-galeria__imagen" controls preload="metadata" playsinline>
+          <source [src]="item" type="video/mp4" />
+        </video>
+      </div>
+    } @else {
+      <a class="bloque-galeria__item" (click)="$event.preventDefault(); abrirLightbox($index)">
+        <img [src]="item" [alt]="'Imagen ' + ($index + 1)" class="bloque-galeria__imagen" loading="lazy" />
+      </a>
+    }
   }
 </div>

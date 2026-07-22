@@ -18,7 +18,8 @@ export class EventosService {
     'festivales.json': () => import('../datos/eventos/festivales.json'),
     'bautizos-comuniones.json': () => import('../datos/eventos/bautizos-comuniones.json'),
     'colaboraciones.json': () => import('../datos/eventos/colaboraciones.json'),
-    'prensa.json': () => import('../datos/eventos/prensa.json')
+    'prensa.json': () => import('../datos/eventos/prensa.json'),
+    'premios.json': () => import('../datos/eventos/premios.json')
   };
 
   async cargar(archivo: string): Promise<void> {

@@ -1,12 +1,12 @@
-﻿{
+{
   "hero": {
-    "titulo": "Conciertos",
+    "titulo": "CONCIERTOS",
     "imagen": "public/fotos-de-eventos/conciertos/cabecera.png"
   },
   "bloques": [
     {
       "tipo": "parrafo",
-      "contenido": "La m\u00fasica en vivo es una experiencia inigualable: una explosi\u00f3n de sonido, emoci\u00f3n y conexi\u00f3n pura. En nuestro estudio nos especializamos en capturar esa energ\u00eda y pasi\u00f3n desbordante, transformando cada actuaci\u00f3n en un relato visual y auditivo que perdura mucho m\u00e1s all\u00e1 del \u00faltimo acorde. Sabemos que cada concierto es \u00fanico; por eso, nuestra misi\u00f3n es documentar su esencia m\u00e1s aut\u00e9ntica, desde la intensidad del escenario hasta la vibrante atm\u00f3sfera que late entre la multitud."
+      "contenido": "La música en vivo es una experiencia inigualable: una explosión de sonido, emoción y conexión pura. En nuestro estudio nos especializamos en capturar esa energía y pasión desbordante, transformando cada actuación en un relato visual y auditivo que perdura mucho más allá del último acorde. Sabemos que cada concierto es único; por eso, nuestra misión es documentar su esencia más auténtica, desde la intensidad del escenario hasta la vibrante atmósfera que late entre la multitud."
     },
     {
       "tipo": "galeria",
@@ -18,7 +18,7 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "Ofrecemos servicios de fotograf\u00eda y v\u00eddeo profesional dise\u00f1ados espec\u00edficamente para el mundo de la m\u00fasica en vivo. Nuestro equipo se integra en el evento con discreci\u00f3n y agilidad, anticip\u00e1ndose a los momentos clave para asegurar que cada gesto, cada mirada y cada nota sean inmortalizados con la m\u00e1xima calidad y un estilo que refleje la identidad de la banda o del artista."
+      "contenido": "Ofrecemos servicios de fotografía y vídeo profesional diseñados específicamente para el mundo de la música en vivo. Nuestro equipo se integra en el evento con discreción y agilidad, anticipándose a los momentos clave para asegurar que cada gesto, cada mirada y cada nota sean inmortalizados con la máxima calidad y un estilo que refleje la identidad de la banda o del artista."
     },
     {
       "tipo": "foto",
@@ -26,11 +26,11 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "Nos adentramos en el coraz\u00f3n del espect\u00e1culo para capturar la esencia de vuestra actuaci\u00f3n. Documentamos cada acorde, cada movimiento, la concentraci\u00f3n de los m\u00fasicos, la expresividad del vocalista y la interacci\u00f3n entre los miembros de la banda. La iluminaci\u00f3n, los detalles de los instrumentos y la puesta en escena son elementos clave que integramos para crear im\u00e1genes y v\u00eddeos que transmitan la fuerza y el arte que despleg\u00e1is en directo. Hacemos que vuestro p\u00fablico vuelva a sentir la adrenalina del directo y que vuestro material promocional sea el reflejo fiel de vuestro poder sobre el escenario."
+      "contenido": "Nos adentramos en el corazón del espectáculo para capturar la esencia de vuestra actuación. Documentamos cada acorde, cada movimiento, la concentración de los músicos, la expresividad del vocalista y la interacción entre los miembros de la banda. La iluminación, los detalles de los instrumentos y la puesta en escena son elementos clave que integramos para crear imágenes y vídeos que transmitan la fuerza y el arte que desplegáis en directo. Hacemos que vuestro público vuelva a sentir la adrenalina del directo y que vuestro material promocional sea el reflejo fiel de vuestro poder sobre el escenario."
     },
     {
       "tipo": "parrafo",
-      "contenido": "Un concierto no est\u00e1 completo sin la energ\u00eda del p\u00fablico. Capturamos la atm\u00f3sfera vibrante que se crea, la euforia, los c\u00e1nticos, los bailes y la conexi\u00f3n emocional entre los asistentes y los artistas. Las reacciones, los rostros iluminados y la marea de manos alzadas son parte fundamental de la historia que contamos. Estas im\u00e1genes no solo enriquecen el recuerdo del evento, sino que tambi\u00e9n son un testimonio del impacto que vuestra m\u00fasica genera.",
+      "contenido": "Un concierto no está completo sin la energía del público. Capturamos la atmósfera vibrante que se crea, la euforia, los cánticos, los bailes y la conexión emocional entre los asistentes y los artistas. Las reacciones, los rostros iluminados y la marea de manos alzadas son parte fundamental de la historia que contamos. Estas imágenes no solo enriquecen el recuerdo del evento, sino que también son un testimonio del impacto que vuestra música genera.",
       "media": {
         "posicion": "izquierda",
     "imagen": "public/fotos-de-eventos/conciertos/5.png"
