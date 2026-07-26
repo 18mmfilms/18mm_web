@@ -41,8 +41,16 @@
       ],
       "media": {
         "posicion": "izquierda",
-    "imagen": "public/fotos-de-eventos/estudio/1.png"
+        "imagen": "public/fotos-de-eventos/estudio/1.png"
       }
+    },
+    {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/estudio/2.png",
+        "public/fotos-de-eventos/estudio/3.png",
+        "public/fotos-de-eventos/estudio/4.png"
+      ]
     }
   ]
 }

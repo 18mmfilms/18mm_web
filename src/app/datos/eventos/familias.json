@@ -6,14 +6,14 @@
   "bloques": [
     {
       "tipo": "parrafo",
-      "contenido": "En el corazón de cada familia reside una historia única, tejida con risas, abrazos, miradas cómplices y el amor incondicional. En nuestro estudio, nos dedicamos a congelar en el tiempo la conexión y el amor de vuestra familia, transformando esos instantes efímeros en un tesoro visual que perdurará por generaciones. Entendemos que la vida familiar es un torbellino de emociones y crecimiento, y nuestra pasión es capturar esa autenticidad con sensibilidad y arte."
+      "contenido": "<strong>En el corazón de cada familia reside una historia única, tejida con risas, abrazos, miradas cómplices y el amor incondicional.</strong> En nuestro estudio, nos dedicamos a congelar en el tiempo la conexión y el amor de vuestra familia, transformando esos instantes efímeros en un tesoro visual que perdurará por generaciones. Entendemos que la vida familiar es un torbellino de emociones y crecimiento, y nuestra pasión es capturar esa autenticidad con sensibilidad y arte."
     },
     {
       "tipo": "parrafo",
-      "contenido": "Creamos sesiones naturales y divertidas, diseñadas para que cada miembro de la familia se sienta cómodo y libre de ser uno mismo. Nuestro objetivo es ir más allá de la imagen y capturar la alegría de los más pequeños.",
+      "contenido": "Creamos sesiones naturales y divertidas, diseñadas para que cada miembro de la familia se sienta cómodo y libre de ser uno mismo.<br><br><strong>Nuestro objetivo es ir más allá de la imagen y capturar la alegría de los más pequeños.</strong>",
       "media": {
         "posicion": "derecha",
-    "imagen": "public/fotos-de-eventos/familias/1.png"
+        "imagen": "public/fotos-de-eventos/familias/1.png"
       }
     },
     {
@@ -32,7 +32,7 @@
     {
       "tipo": "columnas-texto",
       "izquierda": "<strong>SESIONES EN EXTERIORES</strong><br><br>Imaginad un atardecer dorado en un campo de flores, un paseo juguetón por el parque o la brisa marina en vuestros rostros. Estos escenarios son el refugio ideal para las familias que buscan espontaneidad y aventura. Aquí, la luz natural y el paisaje se funden para capturar momentos de exploración y conexión genuina. Nos adaptamos a vuestro ritmo, dejando que la personalidad de cada uno brille en un ambiente relajado, libre y sin prisas.",
-      "derecha": "<strong>SESIONES A DOMICILIO</strong><br>La intimidad de vuestro refugio. No hay escenario más auténtico para una familia que su propio hogar. Estas sesiones nos permiten capturar la esencia de vuestro día a día y esos detalles que os hacen únicos: desde los primeros despertares de un recién nacido, hasta una tarde de juegos en el salón o vuestra receta favorita en la cocina. Nos integramos con discreción en vuestro espacio para documentar la vida tal como es, transformando vuestra rutina en un legado lleno de significado y calidez."
+      "derecha": "<strong>SESIONES A DOMICILIO</strong><br><br>La intimidad de vuestro refugio. No hay escenario más auténtico para una familia que su propio hogar. Estas sesiones nos permiten capturar la esencia de vuestro día a día y esos detalles que os hacen únicos: desde los primeros despertares de un recién nacido, hasta una tarde de juegos en el salón o vuestra receta favorita en la cocina. Nos integramos con discreción en vuestro espacio para documentar la vida tal como es, transformando vuestra rutina en un legado lleno de significado y calidez."
     },
     {
       "tipo": "galeria",
@@ -43,7 +43,7 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "Permitidnos ser los narradores visuales de vuestra historia familiar. Contáctanos para diseñar una sesión que capture la magia de vuestros momentos más preciados. Estamos deseando conoceros y crear juntos recuerdos inolvidables."
+      "contenido": "<strong>Permitidnos ser los narradores visuales de vuestra historia familiar. Contáctanos para diseñar una sesión que capture la magia de vuestros momentos más preciados. Estamos deseando conoceros y crear juntos recuerdos inolvidables.</strong>"
     }
   ]
 }

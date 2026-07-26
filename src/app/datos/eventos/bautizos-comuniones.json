@@ -6,11 +6,11 @@
   "bloques": [
     {
       "tipo": "parrafo",
-      "contenido": "Hay momentos en la vida de una familia que brillan con una luz especial, instantes que marcan el inicio de un camino o la reafirmación de la fe y la inocencia. En nuestro estudio, nos dedicamos a documentar con delicadeza, respeto y una profunda sensibilidad estas grandes celebraciones familiares: los Bautizos y las Primeras Comuniones. Entendemos la trascendencia de estos días y nos comprometemos a capturar cada emoción, cada detalle y cada sonrisa, transformándolos en un legado visual imperecedero."
+      "contenido": "<strong>Hay momentos en la vida de una familia que brillan con una luz especial, instantes que marcan el inicio de un camino o la reafirmación de la fe y la inocencia.</strong> En nuestro estudio, nos dedicamos a documentar con delicadeza, respeto y una profunda sensibilidad estas grandes celebraciones familiares: los Bautizos y las Primeras Comuniones. Entendemos la trascendencia de estos días y nos comprometemos a capturar cada emoción, cada detalle y cada sonrisa, transformándolos en un legado visual imperecedero."
     },
     {
       "tipo": "parrafo",
-      "contenido": "Nuestro enfoque es capturar la autenticidad y la alegría de estos eventos, permitiendo que la naturalidad de los niños y la emoción de las familias sean las verdaderas protagonistas. Nos integramos discretamente en la celebración para que podáis vivir cada momento sin preocupaciones, sabiendo que cada instante significativo está siendo atesorado con la máxima calidad artística."
+      "contenido": "<strong>Nuestro enfoque es capturar la autenticidad y la alegría de estos eventos, permitiendo que la naturalidad de los niños y la emoción de las familias sean las verdaderas protagonistas.</strong> Nos integramos discretamente en la celebración para que podáis vivir cada momento sin preocupaciones, sabiendo que cada instante significativo está siendo atesorado con la máxima calidad artística."
     },
     {
       "tipo": "separador",
@@ -27,10 +27,10 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "El Bautizo es el primer gran hito en la vida de vuestro hijo/a, un día lleno de simbolismo y amor familiar. Desde la solemnidad de la ceremonia religiosa hasta la calidez de la celebración familiar, documentamos con esmero cada paso. Capturamos la pureza de la mirada del bebé, la emoción de los padres y padrinos, los abrazos de los abuelos y la alegría compartida con todos los seres queridos. Cada fotografía será un recuerdo precioso de este día tan significativo, un testimonio del amor que rodea al nuevo miembro de la familia.",
+      "contenido": "<strong>El Bautizo es el primer gran hito en la vida de vuestro hijo/a, un día lleno de simbolismo y amor familiar.</strong> Desde la solemnidad de la ceremonia religiosa hasta la calidez de la celebración familiar, documentamos con esmero cada paso. Capturamos la pureza de la mirada del bebé, la emoción de los padres y padrinos, los abrazos de los abuelos y la alegría compartida con todos los seres queridos. Cada fotografía será un recuerdo precioso de este día tan significativo, un testimonio del amor que rodea al nuevo miembro de la familia.",
       "media": {
         "posicion": "derecha",
-    "imagen": "public/fotos-de-eventos/bautizos-comuniones/1.png"
+        "imagen": "public/fotos-de-eventos/bautizos-comuniones/1.png"
       }
     },
     {
@@ -49,7 +49,7 @@
     {
       "tipo": "subtitulo",
       "nivel": "h2",
-      "contenido": "Sesiones Previas en Exteriores o Estudio:"
+      "contenido": "<strong>Sesiones Previas en Exteriores o Estudio:</strong>"
     },
     {
       "tipo": "parrafo",
@@ -58,11 +58,11 @@
     {
       "tipo": "subtitulo",
       "nivel": "h2",
-      "contenido": "Cobertura del Evento:"
+      "contenido": "<strong>Cobertura del Evento:</strong>"
     },
     {
       "tipo": "parrafo",
-      "contenido": "Documentamos la ceremonia religiosa con el máximo respeto, capturando los momentos más emotivos y significativos. Posteriormente, nos unimos a la celebración familiar para inmortalizar la felicidad, los juegos, los detalles de la decoración y la interacción con los invitados. Nuestro objetivo es que cada imagen transmita la ilusión y la inocencia de este día tan especial."
+      "contenido": "Documentamos la ceremonia religiosa con el máximo respeto, capturando los momentos más emotivos y significativos. Posteriormente, nos unimos a la celebración familiar para inmortalizar la felicidad, los juegos, los detalles de la decoración y la interacción con los invitados.<br><br><strong>Nuestro objetivo es que cada imagen transmita la ilusión y la inocencia de este día tan especial.</strong>"
     },
     {
       "tipo": "galeria",
@@ -73,11 +73,11 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "Las fotografías de Bautizos y Comuniones son mucho más que simples imágenes: son recuerdos irrepetibles, un legado de emociones que vuestra familia atesorará para siempre. Nos enorgullece formar parte de vuestra historia, creando un tesoro visual que os permitirá revivir la magia de estos días una y otra vez."
+      "contenido": "<strong>Las fotografías de Bautizos y Comuniones son mucho más que simples imágenes: son recuerdos irrepetibles, un legado de emociones que vuestra familia atesorará para siempre.</strong> Nos enorgullece formar parte de vuestra historia, creando un tesoro visual que os permitirá revivir la magia de estos días una y otra vez."
     },
     {
       "tipo": "parrafo",
-      "contenido": "Contactad con nosotros para conocer nuestras opciones y personalizar la cobertura de estas celebraciones tan importantes. Estamos deseando ayudaros a guardar para siempre la luz de estos días."
+      "contenido": "<strong>Contactad con nosotros para conocer nuestras opciones y personalizar la cobertura de estas celebraciones tan importantes. Estamos deseando ayudaros a guardar para siempre la luz de estos días.</strong>"
     }
   ]
 }

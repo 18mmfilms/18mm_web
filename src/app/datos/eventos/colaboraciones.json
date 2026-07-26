@@ -9,23 +9,19 @@
       "contenido": "En 18mm Films entendemos que la excelencia nace del intercambio y la sinergia. Nuestro compromiso con la narrativa visual nos impulsa a tejer alianzas estratégicas con profesionales y entidades que comparten nuestra pasión por crear experiencias memorables. Cada proyecto conjunto es una oportunidad para expandir nuestros horizontes creativos y consolidar una red de valor que beneficia a todos. Así es como colaboramos:"
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
+      "tipo": "parrafo",
       "contenido": "<strong>Cultura y Conocimiento:</strong> Charlas enriquecedoras junto a instituciones de prestigio como el Ateneo de Sevilla."
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
+      "tipo": "parrafo",
       "contenido": "<strong>Acción y Team Building:</strong> Capturamos la adrenalina, el compañerismo y la diversión en las gymkanas y capeas de Eclipse."
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
+      "tipo": "parrafo",
       "contenido": "<strong>Grandes Eventos y Festivales:</strong> Nos sumergimos en la vibrante atmósfera de los festivales más importantes de Madrid."
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
+      "tipo": "parrafo",
       "contenido": "<strong>Corporativo e Innovación:</strong> Cubrimos eventos clave de emprendimiento en Andalucía mano a mano con Gobo Audiovisuales."
     },
     {
@@ -33,9 +29,8 @@
       "estilo": "simple"
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
-      "contenido": "<strong>Festival de Cine de Madrid:</strong> Detrás de la Gran Pantalla."
+      "tipo": "parrafo",
+      "contenido": "<strong>Festival de Cine de Madrid: Detrás de la Gran Pantalla.</strong>"
     },
     {
       "tipo": "parrafo",
@@ -43,7 +38,7 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "- Glow & Glamour: La expectación y el brillo de los photocalls.<br>- Industria: El pulso de los pitchings y el nacimiento de proyectos en las sesiones de networking.<br>- Cultura: Presentaciones de libros y encuentros con creadores.<br>- El Gran Cierre: La emoción y el prestigio de la gran gala de premios."
+      "contenido": "<strong>Glow & Glamour:</strong> La expectación y el brillo de los photocalls.<br><strong>Industria:</strong> El pulso de los pitchings y el nacimiento de proyectos en las sesiones de networking.<br><strong>Cultura:</strong> Presentaciones de libros y encuentros con creadores.<br><strong>El Gran Cierre:</strong> La emoción y el prestigio de la gran gala de premios."
     },
     {
       "tipo": "galeria",
@@ -61,9 +56,8 @@
       "estilo": "simple"
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
-      "contenido": "<strong>Ateneo de Sevilla:</strong> Cultura, Charlas y Espectáculos"
+      "tipo": "parrafo",
+      "contenido": "<strong>Ateneo de Sevilla: Cultura, Charlas y Espectáculos.</strong>"
     },
     {
       "tipo": "parrafo",
@@ -73,8 +67,7 @@
       "tipo": "galeria",
       "imagenes": [
         "public/fotos-de-eventos/colaboraciones/7.png",
-        "public/fotos-de-eventos/colaboraciones/8.png",
-        "public/fotos-de-eventos/colaboraciones/9.png"
+        "public/fotos-de-eventos/colaboraciones/8.png"
       ]
     },
     {
@@ -82,9 +75,8 @@
       "estilo": "simple"
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
-      "contenido": "<strong>Gymkanas:</strong> Dinamismo y Aventura en Equipo."
+      "tipo": "parrafo",
+      "contenido": "<strong>Gymkanas: Dinamismo y Aventura en Equipo.</strong>"
     },
     {
       "tipo": "parrafo",
@@ -103,13 +95,12 @@
       "estilo": "simple"
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
-      "contenido": "<strong>Capeas:</strong> La Emoción de la Fiesta Tradicional"
+      "tipo": "parrafo",
+      "contenido": "<strong>Capeas: La Emoción de la Fiesta Tradicional.</strong>"
     },
     {
       "tipo": "parrafo",
-      "contenido": "Capturar una capea requiere estar en el lugar idóneo en el momento justo. Nos encargamos de la cobertura completa (fotografía, grabación y edición) enfocándonos en lo que de verdad importa:<br>- La Acción: Los quiebros, las carreras y la valentía en la arena.<br>- El Ambiente: Las risas compartidas, la música y la euforia del público.<br>- El Recuerdo: Un vídeo dinámico que vuestro grupo querrá ver en bucle."
+      "contenido": "Capturar una capea requiere estar en el lugar idóneo en el momento justo. Nos encargamos de la cobertura completa (fotografía, grabación y edición) enfocándonos en lo que de verdad importa:<br><br><strong>La Acción:</strong> Los quiebros, las carreras y la valentía en la arena.<br><strong>El Ambiente:</strong> Las risas compartidas, la música y la euforia del público.<br><strong>El Recuerdo:</strong> Un vídeo dinámico que vuestro grupo querrá ver en bucle."
     },
     {
       "tipo": "galeria",
@@ -123,13 +114,12 @@
       "estilo": "simple"
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
-      "contenido": "<strong>Al-Andalus Innovation Venture:</strong> Impulsando el Emprendimiento"
+      "tipo": "parrafo",
+      "contenido": "<strong>Al-Andalus Innovation Venture: Impulsando el Emprendimiento.</strong>"
     },
     {
       "tipo": "parrafo",
-      "contenido": "En 18mm Films hemos tenido el privilegio de firmar la cobertura audiovisual integral de Al-Andalus Innovation Venture, el evento de referencia para la inversión, la innovación y el ecosistema startup en Andalucía. Un despliegue de esta envergadura requirió de nuestra máxima precisión técnica, agilidad y coordinación para capturar cada hito del encuentro: Ponencias y Mesas Redondas: Fotografía y vídeo de alta calidad de los líderes del sector. Zona de Networking: Captura de sinergias, reuniones one-to-one y conexiones estratégicas. Keynotes y Pitches: Inmortalización del talento emergente presentando sus proyectos al futuro.",
+      "contenido": "En 18mm Films hemos tenido el privilegio de firmar la cobertura audiovisual integral de Al-Andalus Innovation Venture, el evento de referencia para la inversión, la innovación y el ecosistema startup en Andalucía. Un despliegue de esta envergadura requirió de nuestra máxima precisión técnica, agilidad y coordinación para capturar cada hito del encuentro:<br><br><strong>Ponencias y Mesas Redondas:</strong> Fotografía y vídeo de alta calidad de los líderes del sector.<br><strong>Zona de Networking:</strong> Captura de sinergias, reuniones one-to-one y conexiones estratégicas.<br><strong>Keynotes y Pitches:</strong> Inmortalización del talento emergente presentando sus proyectos al futuro.",
       "media": {
         "posicion": "",
         "imagen": "public/fotos-de-eventos/colaboraciones/15.png"
@@ -140,9 +130,8 @@
       "estilo": "simple"
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
-      "contenido": "<strong>Parque Warner Madrid:</strong> La Primera Impresión"
+      "tipo": "parrafo",
+      "contenido": "<strong>Parque Warner Madrid: La Primera Impresión.</strong>"
     },
     {
       "tipo": "parrafo",

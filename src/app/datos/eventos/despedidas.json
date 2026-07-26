@@ -6,7 +6,7 @@
   "bloques": [
     {
       "tipo": "parrafo",
-      "contenido": "Inmortalizamos la diversión, la locura y la complicidad única de vuestras despedidas. Sabemos que este es uno de los momentos más esperados antes del gran día, y nuestro objetivo es que podáis disfrutarlo al máximo mientras nosotros nos encargamos de capturar cada instante inolvidable."
+      "contenido": "<strong>Inmortalizamos la diversión, la locura y la complicidad única de vuestras despedidas.</strong> Sabemos que este es uno de los momentos más esperados antes del gran día, y nuestro objetivo es que podáis disfrutarlo al máximo mientras nosotros nos encargamos de capturar cada instante inolvidable."
     },
     {
       "tipo": "parrafo",
@@ -22,7 +22,7 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "Ya sea una jornada de aventura, una fiesta temática o una tarde de relax, nos adaptamos al estilo de vuestro grupo para ofreceros un recuerdo perfecto y profesional. Es la oportunidad ideal para tener imágenes de alta calidad de todos vuestros amigos y familiares juntos, celebrando la amistad y el camino hacia el \"sí, quiero\"."
+      "contenido": "Ya sea una jornada de aventura, una fiesta temática o una tarde de relax, nos adaptamos al estilo de vuestro grupo para ofreceros un recuerdo perfecto y profesional.<br><br><strong>Es la oportunidad ideal para tener imágenes de alta calidad de todos vuestros amigos y familiares juntos, celebrando la amistad y el camino hacia el \"sí, quiero\".</strong>"
     }
   ]
 }
