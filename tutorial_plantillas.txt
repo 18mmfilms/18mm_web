@@ -295,5 +295,5 @@ EJEMPLO CORRECTO:
   ----------------------------------------
   Aqui se definen los servicios que aparecen en la landing (Fotografia, Video, Dron, Invitaciones).
 
-  Se pueden añadir, quitar o renombrar sin problemas, se van añadiendo.
+  Se pueden añadir, quitar o renombrar sin problemas, se van añadiendo..
 
