@@ -92,7 +92,7 @@
     "nombre": "PREMIOS",
     "ruta": "premios",
     "archivo": "premios.json",
-    "heroImagen": "public/fotos-de-eventos/prensa/cabezera.png",
-    "imagen": "public/fotos-de-eventos/prensa/cabezera.png"
+    "heroImagen": "public/eventos/premios.jpeg",
+    "imagen": "public/eventos/premios.jpeg"
   }
 ]

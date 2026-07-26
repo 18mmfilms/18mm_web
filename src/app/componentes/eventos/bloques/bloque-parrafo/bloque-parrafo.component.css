@@ -32,6 +32,11 @@
   object-fit: contain;
 }
 
+.bloque-parrafo-con-imagen__video[src*="youtube"] {
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
 .bloque-parrafo-con-imagen__texto {
   width: 60%;
   text-align: justify;

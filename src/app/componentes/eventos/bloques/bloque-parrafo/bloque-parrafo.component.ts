@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { esVideo, esYoutube, getYoutubeEmbedUrl } from '../../../../utils/media.util';
 
 @Component({
   selector: 'app-bloque-parrafo',
@@ -10,11 +12,16 @@ import { Component, Input } from '@angular/core';
 export class BloqueParrafoComponent {
   @Input() bloque: any = null;
 
+  constructor(private sanitizer: DomSanitizer) {}
+
   get posicionInvertida(): boolean {
     return this.bloque?.media?.posicion === 'derecha';
   }
 
-  esVideo(ruta: string): boolean {
-    return ruta?.toLowerCase().endsWith('.mp4');
+  esVideo = esVideo;
+  esYoutube = esYoutube;
+
+  youtubeUrl(ruta: string): SafeResourceUrl {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(getYoutubeEmbedUrl(ruta));
   }
 }

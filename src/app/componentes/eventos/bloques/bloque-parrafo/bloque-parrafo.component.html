@@ -1,6 +1,8 @@
 @if (bloque?.media?.imagen) {
   <div class="bloque-parrafo-con-imagen" [class.bloque-parrafo-con-imagen--invertido]="posicionInvertida">
-    @if (esVideo(bloque?.media?.imagen)) {
+    @if (esYoutube(bloque?.media?.imagen)) {
+      <iframe class="bloque-parrafo-con-imagen__video" [src]="youtubeUrl(bloque?.media?.imagen)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    } @else if (esVideo(bloque?.media?.imagen)) {
       <video class="bloque-parrafo-con-imagen__video" autoplay muted loop playsinline controls>
         <source [src]="bloque?.media?.imagen" type="video/mp4" />
       </video>

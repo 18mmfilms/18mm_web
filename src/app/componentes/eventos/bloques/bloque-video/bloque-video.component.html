@@ -1,5 +1,9 @@
 <div class="bloque-video">
-  <video class="bloque-video__player" controls [poster]="poster" preload="metadata">
-    <source [src]="archivo" type="video/mp4" />
-  </video>
+  @if (esYoutube(archivo)) {
+    <iframe class="bloque-video__player bloque-video__player--youtube" [src]="youtubeUrl(archivo)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  } @else {
+    <video class="bloque-video__player" controls [poster]="poster" preload="metadata">
+      <source [src]="archivo" type="video/mp4" />
+    </video>
+  }
 </div>
