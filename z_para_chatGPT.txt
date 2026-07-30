@@ -89,8 +89,10 @@ Estructura general:
 
 [BLOQUE "parrafo"]
   Texto con imagen opcional a la derecha o izquierda.
-  Si la imagen es un archivo .mp4, se mostrará como vídeo
-  (con controles, sin sonido, manteniendo su resolución original).
+  El campo "imagen" admite:
+  - Imagen JPG/PNG
+  - Video MP4 (se muestra con controles, sin sonido)
+  - URL de YouTube (ej: https://www.youtube.com/watch?v=VIDEO_ID)
   Ejemplo sin imagen:
     { "tipo": "parrafo", "contenido": "Texto aquí" }
   Ejemplo con imagen:
@@ -107,9 +109,10 @@ Estructura general:
 
 
 [BLOQUE "galeria"]
-  Conjunto de imágenes y/o vídeos en cuadrícula.
+  Conjunto de imágenes, vídeos y/o URLs de YouTube en cuadrícula.
   Las imágenes se abren en grande al hacer clic.
   Los vídeos MP4 se reproducen con controles y sin sonido.
+  Las URLs de YouTube se muestran como iframes.
   Ejemplo:
     {
       "tipo": "galeria",
@@ -122,9 +125,11 @@ Estructura general:
 
 
 [BLOQUE "video"]
-  Reproductor de vídeo MP4.
+  Reproductor de vídeo MP4 o YouTube.
   Ejemplo:
     { "tipo": "video", "archivo": "public/carpeta/video.mp4" }
+  También acepta URLs de YouTube:
+    { "tipo": "video", "archivo": "https://www.youtube.com/watch?v=VIDEO_ID" }
 
 
 [BLOQUE "cita"]
@@ -152,9 +157,13 @@ Estructura general:
 
 
 [BLOQUE "foto"]
-  Foto individual a tamaño completo.
+  Foto, vídeo o YouTube a tamaño completo.
   Ejemplo:
     { "tipo": "foto", "archivo": "public/carpeta/foto.jpg" }
+  También acepta MP4:
+    { "tipo": "foto", "archivo": "public/carpeta/video.mp4" }
+  Y URLs de YouTube:
+    { "tipo": "foto", "archivo": "https://youtu.be/VIDEO_ID" }
 
 
 [BLOQUE "textos-con-imagen"]
@@ -306,5 +315,7 @@ Estructura general:
 - Los archivos .jpg, .png, .jpeg son imágenes.
 - Los archivos .mp4 son vídeos (se muestran con controles y sin sonido,
   manteniendo su resolución vertical u horizontal original).
+- Las URLs de YouTube (youtube.com/watch o youtu.be) se detectan automáticamente
+  y se muestran como video incrustado (iframe) sin cookie.
 - Después de crear o modificar un evento, comprueba que el JSON
   sigue siendo válido y que no hay comas incorrectas.

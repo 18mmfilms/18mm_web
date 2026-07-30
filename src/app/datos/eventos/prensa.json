@@ -6,7 +6,7 @@
   "bloques": [
     {
       "tipo": "parrafo",
-      "contenido": "En Control de Realización, tuve la oportunidad de manejar la Mesa de Sonido y la Mesa de VTR, siendo parte esencial de la producción en debates, entrevistas e informativos. Montaje de platos y grabaciones de noticias en la calle, utilizando la cámara ENG para cubrir eventos de todo tipo, desde convocatorias políticas hasta certámenes y espectáculos musicales. Esta experiencia me ha enseñado a trabajar bajo presión, adaptándome rápidamente a diferentes situaciones y manteniendo siempre el enfoque en la excelencia del producto final."
+      "contenido": "<strong>En Control de Realización tuve la oportunidad de manejar la Mesa de Sonido y la Mesa de VTR, siendo parte esencial de la producción en debates, entrevistas e informativos.</strong> También participé en el montaje de platós y en grabaciones de noticias en la calle utilizando cámara ENG para cubrir eventos de todo tipo, desde convocatorias políticas hasta certámenes y espectáculos musicales. <strong>Esta experiencia me ha enseñado a trabajar bajo presión, adaptándome rápidamente a diferentes situaciones y manteniendo siempre el enfoque en la excelencia del producto final.</strong>"
     },
     {
       "tipo": "galeria",
@@ -24,9 +24,8 @@
       "estilo": "simple"
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
-      "contenido": "7TV ANDALUCÍA"
+      "tipo": "parrafo",
+      "contenido": "<strong>7TV ANDALUCÍA</strong>"
     },
     {
       "tipo": "galeria",
@@ -37,7 +36,7 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "Durante la retransmisión en directo participé activamente en la captura de imágenes, adaptándome a las condiciones cambiantes del recorrido y a un clima poco favorable, siempre con el objetivo de ofrecer planos estables, cuidados y que transmitieran la esencia del momento. La coordinación constante con el equipo técnico y de realización fue clave para garantizar una cobertura fluida y de calidad televisiva. Mi labor se centró en reflejar la emoción y solemnidad de la procesión, trasladando al espectador la grandeza del evento y contribuyendo a poner en valor el patrimonio cultural y religioso de la ciudad."
+      "contenido": "<strong>Durante la retransmisión en directo participé activamente en la captura de imágenes, adaptándome a las condiciones cambiantes del recorrido y a un clima poco favorable para ofrecer siempre planos estables y de calidad.</strong> La coordinación constante con el equipo técnico y de realización fue clave para garantizar una cobertura fluida y de calidad televisiva. <strong>Mi labor se centró en reflejar la emoción y solemnidad de la procesión, trasladando al espectador la grandeza del evento y poniendo en valor el patrimonio cultural y religioso de la ciudad.</strong>"
     },
     {
       "tipo": "galeria",
@@ -49,37 +48,31 @@
     },
     {
       "tipo": "parrafo",
-      "contenido": "Participé en la retransmisión en directo de la salida extraordinaria por los 600 años de la Hermandad. Fue un despliegue técnico de gran envergadura donde realicé la cobertura audiovisual durante todo el recorrido, desde la salida en la Capilla de los Marineros hasta su paso por la Catedral y el regreso al barrio.<br><br>Lo que aporté al proyecto<br>- Captación en movimiento: Seguimiento de la procesión durante horas, manteniendo planos estables y de calidad televisiva a pesar de las aglomeraciones.<br>- Coordinación técnica: Trabajo directo con realización para asegurar una emisión fluida y sin cortes durante los puntos clave del itinerario (Puente de Triana, Altozano, Pureza...).<br>- Adaptabilidad: Gestión de la cámara en directo bajo condiciones de luz cambiantes y en un entorno de gran complejidad logística.<br><br>Un trabajo de máxima precisión para llevar un evento histórico de Sevilla a los espectadores en tiempo real."
+      "contenido": "<strong>Participé en la retransmisión en directo de la salida extraordinaria por los 600 años de la Hermandad.</strong> Fue un despliegue técnico de gran envergadura donde realicé la cobertura audiovisual durante todo el recorrido, desde la salida en la Capilla de los Marineros hasta su paso por la Catedral y el regreso al barrio.<br><br><strong>Lo que aporté al proyecto:</strong><br><br><strong>Captación en movimiento:</strong> Seguimiento de la procesión durante horas, manteniendo planos estables y de calidad televisiva a pesar de las aglomeraciones.<br><br><strong>Coordinación técnica:</strong> Trabajo directo con realización para asegurar una emisión fluida y sin cortes durante los puntos clave del itinerario (Puente de Triana, Altozano, Pureza...).<br><br><strong>Adaptabilidad:</strong> Gestión de la cámara en directo bajo condiciones de luz cambiantes y en un entorno de gran complejidad logística.<br><br><strong>Un trabajo de máxima precisión para llevar un evento histórico de Sevilla a los espectadores en tiempo real.</strong>"
     },
     {
       "tipo": "separador",
       "estilo": "simple"
     },
     {
-      "tipo": "subtitulo",
-      "nivel": "h3",
-      "contenido": "MEDIASET"
+      "tipo": "parrafo",
+      "contenido": "<strong>MEDIASET</strong>"
     },
     {
       "tipo": "galeria",
       "imagenes": [
         "public/fotos-de-eventos/prensa/12.png",
-        "public/fotos-de-eventos/prensa/13.png"
+        "public/fotos-de-eventos/prensa/13.png",
+        "public/fotos-de-eventos/prensa/16.png"
       ]
     },
     {
       "tipo": "parrafo",
-      "contenido": "Tuve el privilegio de formar parte de los equipos de informativos de Cuatro y Telecinco. Esta experiencia me permitió trabajar en diversas localizaciones, cubriendo noticias tanto en Sevilla y sus alrededores como en otras ciudades clave de Andalucía."
+      "contenido": "<strong>Tuve el privilegio de formar parte de los equipos de informativos de Cuatro y Telecinco.</strong> Esta experiencia me permitió trabajar en diversas localizaciones, cubriendo noticias tanto en Sevilla y sus alrededores como en otras ciudades clave de Andalucía."
     },
     {
       "tipo": "parrafo",
-      "contenido": "Ha sido una etapa increíblemente enriquecedora, donde no solo he consolidado mis habilidades técnicas, sino que también he disfrutado enormemente del dinamismo y la exigencia del trabajo periodístico."
-    },
-    {
-      "tipo": "galeria",
-      "imagenes": [
-        "public/fotos-de-eventos/prensa/13.png"
-      ]
+      "contenido": "<strong>Fue una etapa increíblemente enriquecedora, donde consolidé mis habilidades técnicas y disfruté del dinamismo y la exigencia del trabajo periodístico.</strong>"
     }
   ]
 }

@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { LightboxService } from '../../../../servicios/lightbox.service';
+import { esVideo, esYoutube, getYoutubeEmbedUrl } from '../../../../utils/media.util';
 
 @Component({
   selector: 'app-bloque-foto',
@@ -11,13 +13,22 @@ import { LightboxService } from '../../../../servicios/lightbox.service';
 export class BloqueFotoComponent {
   @Input() archivo: string = '';
 
-  constructor(private lightbox: LightboxService) {}
+  constructor(private lightbox: LightboxService, private sanitizer: DomSanitizer) {}
 
   get src(): string {
     return this.archivo || 'public/no-imagen/no-imagen.jpg';
   }
 
+  esVideo = esVideo;
+  esYoutube = esYoutube;
+
+  youtubeUrl(ruta: string): SafeResourceUrl {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(getYoutubeEmbedUrl(ruta));
+  }
+
   abrirLightbox(): void {
-    this.lightbox.open([this.src], 0);
+    if (!this.esYoutube(this.archivo) && !this.esVideo(this.archivo)) {
+      this.lightbox.open([this.src], 0);
+    }
   }
 }

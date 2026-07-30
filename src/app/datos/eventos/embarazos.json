@@ -3,101 +3,63 @@
     "titulo": "EMBARAZOS",
     "imagen": "public/fotos-de-eventos/embarazos/cabezera.png"
   },
-
-
-
-
   "bloques": [
     {
       "tipo": "parrafo",
-      "contenido": "La etapa del embarazo es un viaje extraordinario, un período de transformación y un amor que crece día a día. En nuestro estudio, celebramos la dulce espera con sesiones fotográficas llenas de ternura y elegancia, diseñadas para honrar la belleza de la maternidad y la conexión única que se forma antes de la llegada del bebé. Nuestro objetivo es crear un recuerdo eterno de esta etapa tan especial, capturando la luz, la emoción y la serenidad que irradia cada futura mamá."
+      "contenido": "La etapa del embarazo es un viaje extraordinario, un período de transformación y un amor que crece día a día. <strong>En nuestro estudio, celebramos la dulce espera con sesiones fotográficas llenas de ternura y elegancia, diseñadas para honrar la belleza de la maternidad y la conexión única que se forma antes de la llegada del bebé.</strong> Nuestro objetivo es crear un recuerdo eterno de esta etapa tan especial, capturando la luz, la emoción y la serenidad que irradia cada futura mamá."
     },
-
-
-
     {
       "tipo": "parrafo",
-      "contenido": "Entendemos la importancia de un ambiente íntimo y relajado, donde te sientas cómoda y radiante. Cada sesión es una experiencia personalizada, cuidando cada detalle para que te sientas segura, hermosa y conectada con tu bebé. Nos dedicamos a resaltar la magia de este momento, creando imágenes que serán un recuerdo tesoro precioso para ti y tu familia.",
-    
- "media": {
+      "contenido": "Entendemos la importancia de un ambiente íntimo y relajado, donde te sientas cómoda y radiante. Cada sesión es una experiencia personalizada, cuidando cada detalle para que te sientas segura, hermosa y conectada con tu bebé.<br><br><strong>Nos dedicamos a resaltar la magia de este momento, creando imágenes que serán un recuerdo tesoro precioso para ti y tu familia.</strong>",
+      "media": {
         "posicion": "derecha",
-        "imagen": "public/fotos-de-eventos/embarazos/1.png"
+        "imagen": "public/fotos-de-eventos/embarazos/cabecera.png"
       }
-   
-},
-
-
-
-
+    },
     {
       "tipo": "separador",
       "estilo": "simple"
     },
-
-
-
     {
       "tipo": "titulo",
       "contenido": "Vuestra Elección, Vuestro Recuerdo:"
     },
-
-
-
     {
       "tipo": "columnas-texto",
       "izquierda": "<strong>Sesiones en estudio:</strong><br>Intimidad y elegancia<br>Nuestro estudio ofrece un espacio sereno y controlado, ideal para capturar la belleza del embarazo con una iluminación perfecta y un estilo único. Aquí podemos jugar con diferentes fondos, texturas y vestuarios que realcen tu figura y la dulzura de la espera. Es el escenario perfecto para fotografías artísticas y delicadas, donde la intimidad y la elegancia son las protagonistas, creando un ambiente tranquilo donde puedas relajarte y disfrutar plenamente de la experiencia.",
       "derecha": "<strong>Sesiones en exteriores:</strong><br>La naturaleza como el escenario perfecto para quienes buscan una conexión profunda. Jardines o playas donde la luz natural y el entorno se unen para crear un ambiente relajado, ideal para capturar tu esencia de forma auténtica. La luz natural, los paisajes vibrantes y la inmensidad del entorno se convierten en el marco ideal para capturar la vitalidad y la esperanza de esta etapa. Imagina la brisa suave de la playa al atardecer, o la frescura de un jardín florecido, creando un escenario mágico y orgánico para tus fotografías de embarazo. Estas sesiones buscan la espontaneidad y la conexión con el entorno, resultando en imágenes llenas de vida y emoción."
     },
-
-
-
     {
       "tipo": "galeria",
       "imagenes": [
         "public/fotos-de-eventos/embarazos/2.png",
         "public/fotos-de-eventos/embarazos/3.png",
         "public/fotos-de-eventos/embarazos/4.png",
-        "public/fotos-de-eventos/embarazos/5.png"
-      ]
-    },
-
-
-
-    {
-      "tipo": "parrafo",
-      "contenido": "Más que una imagen, cada fotografía es un fragmento de vuestra historia; el primer testimonio visual de un amor que ya ha comenzado. Nuestra misión es capturar la esencia de esta dulce espera para entregaros un legado que vuestro hijo o hija podrá descubrir mañana. No es solo una sesión, es el recuerdo eterno de donde todo empezó."
-    },
-
-
-
-    {
-      "tipo": "galeria",
-      "imagenes": [
+        "public/fotos-de-eventos/embarazos/5.png",
         "public/fotos-de-eventos/embarazos/6.png",
         "public/fotos-de-eventos/embarazos/7.png"
       ]
     },
-
-
-
-    { 
-      "tipo": "titulo",
-      "contenido": "Reseñas"
+    {
+      "tipo": "parrafo",
+      "contenido": "Más que una imagen, cada fotografía es un fragmento de vuestra historia; el primer testimonio visual de un amor que ya ha comenzado. Nuestra misión es capturar la esencia de esta dulce espera para entregaros un legado que vuestro hijo o hija podrá descubrir mañana.<br><br><strong>No es solo una sesión, es el recuerdo eterno de donde todo empezó.</strong>"
     },
-
-
+    {
+      "tipo": "galeria",
+      "imagenes": [
+        "public/fotos-de-eventos/embarazos/8.png",
+        "public/fotos-de-eventos/embarazos/9.png"
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "contenido": "RESEÑAS"
+    },
     {
       "tipo": "galeria",
       "imagenes": [
         "public/fotos-de-eventos/embarazos/reseña.jpeg"
       ]
     }
-
-
-
-
-
-
-
   ]
 }

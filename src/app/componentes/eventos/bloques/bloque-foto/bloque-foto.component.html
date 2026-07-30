@@ -1,5 +1,13 @@
 <div class="bloque-foto">
-  <a class="bloque-foto__enlace" (click)="$event.preventDefault(); abrirLightbox()">
-    <img [src]="src" alt="Fotografía" class="bloque-foto__imagen" loading="lazy" />
-  </a>
+  @if (esYoutube(archivo)) {
+    <iframe class="bloque-foto__video bloque-foto__video--youtube" [src]="youtubeUrl(archivo)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  } @else if (esVideo(archivo)) {
+    <video class="bloque-foto__video" autoplay muted loop playsinline controls>
+      <source [src]="archivo" type="video/mp4" />
+    </video>
+  } @else {
+    <a class="bloque-foto__enlace" (click)="$event.preventDefault(); abrirLightbox()">
+      <img [src]="src" alt="Fotografía" class="bloque-foto__imagen" loading="lazy" />
+    </a>
+  }
 </div>

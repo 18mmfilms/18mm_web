@@ -7,3 +7,7 @@
   aspect-ratio: 16 / 9;
   background-color: #d0d0d0;
 }
+
+.bloque-video__player--youtube {
+  height: auto;
+}

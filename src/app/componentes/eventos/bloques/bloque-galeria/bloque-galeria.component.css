@@ -35,6 +35,12 @@
   background: #000;
 }
 
+.bloque-galeria__video--youtube {
+  aspect-ratio: 16 / 9;
+  height: auto;
+  max-height: none;
+}
+
 @media (max-width: 768px) {
   .bloque-galeria__item {
     flex: 0 0 calc((100% - 1rem) / 2);

@@ -1,6 +1,10 @@
 <div class="bloque-galeria">
   @for (item of imagenes; track $index) {
-    @if (esVideo(item)) {
+    @if (esYoutube(item)) {
+      <div class="bloque-galeria__item bloque-galeria__item--video">
+        <iframe class="bloque-galeria__video bloque-galeria__video--youtube" [src]="youtubeUrl(item)" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+      </div>
+    } @else if (esVideo(item)) {
       <div class="bloque-galeria__item bloque-galeria__item--video">
         <video class="bloque-galeria__video" controls muted preload="metadata" playsinline>
           <source [src]="item" type="video/mp4" />
